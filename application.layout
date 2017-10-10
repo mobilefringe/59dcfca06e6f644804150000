@@ -88,21 +88,21 @@
             </div>
             <div class="nav_container hidden_phone">
                 <div class="social_links">
-                    <a href="//www.facebook.com/LBTowneCenter" target="_blank">
+                    <a href="//www.facebook.com/eglintonsquareshoppingcentre" target="_blank">
                         <span id="social_facebook"></span>
                     </a>
-                    <a href="//twitter.com/LBTowneCentr" target="_blank">
+                    <a href="//twitter.com/EglintonSquare" target="_blank">
                         <span id="social_twitter"></span>
                     </a>
-                    <!--<a href="#" target="_blank">-->
-                    <!--    <span id="social_pinterest"></span>-->
-                    <!--</a>-->
-                    <a href="//www.instagram.com/LBTowneCenter" target="_blank">
+                    <a href="//www.pinterest.ca/eglintonsquare/" target="_blank">
+                        <span id="social_pinterest"></span>
+                    </a>
+                    <a href="//www.instagram.com/eglintonsquare/" target="_blank">
                         <span id="social_insta"></span>
                     </a>
-                    <!--<a href="#" target="_blank">-->
-                    <!--    <span id="social_yt"></span>-->
-                    <!--</a>-->
+                    <a href="//www.youtube.com/user/eglintonsquare" target="_blank">
+                        <span id="social_yt"></span>
+                    </a>
                     <!--<a href="#" target="_blank">-->
                     <!--    <span id="social_gplus"></span>-->
                     <!--</a>-->
