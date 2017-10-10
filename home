@@ -1,0 +1,70 @@
+<style>
+    .flex-control-nav{
+    bottom:12px;
+    z-index:9;
+    display:none !important;
+}
+</style>
+
+<div class="popup_home hidden_now" id="popup_container">
+    <script id="popup_template" type="x-tmpl-mustache/text">
+        <a href="{{photo_link}}" {{css}} onclick="{{no_link}}">
+            <img id="popup_img" src="{{image_url_abs}}" />
+        </a>
+        <i class="fa fa-remove close_popup"></i>
+    </script>
+</div>
+<div class="flexslider">
+    <ul class="slides" id="home_banner">
+        <script id="banner_template" type="x-tmpl-mustache/text">
+            <li>
+                <div style="background-image:url({{image_url}})" class="banner_image_div">
+                    <a class="banner_image_li" href="{{url}}" {{css}} onclick="{{noLink}}" >
+                    </a>
+                </div>
+            </li>
+        </script>
+    </ul>
+</div>
+<div class="main_container mobile_padding">
+    <div class="feature_row" id="feature_container">
+        <script id="feature_template" type="x-tmpl-mustache/text">
+            <div class="feature_col">
+                <a href="{{url}}">
+                    <img src="{{image_url}}" alt="Feature item" />
+                </a>
+            </div>
+        </script>
+    </div>
+</div>
+<script>
+    $(document).ready(function(e){
+        init(e);
+        loadMallDataCached(renderPage);
+    })
+    
+    function renderPage(){
+        var banners = getBanners();
+        var feature_items = getFeatureList();
+        var popup = getPopups()[0];
+        renderBanner('#banner_template','#home_banner',banners);
+        renderFeatureItems('#feature_container','#feature_template', feature_items);
+        $('.flexslider').flexslider({
+            animation: "fade",
+        });
+        show_content();
+        if(popup != undefined && $.cookie("popup_viewed") != "true"){
+            renderPopUp("#popup_container", "#popup_template", popup)
+            $.cookie("popup_viewed", "true");
+            $('<div class="modal-backdrop custom_backdrop"></div>').appendTo(document.body);
+            $('.popup_home').show()
+        }
+        $('.close_popup, .custom_backdrop').click(function(){
+            $(".modal-backdrop").remove();
+	        $(".popup_home").remove();
+        })
+    }
+    
+    
+    
+</script>
