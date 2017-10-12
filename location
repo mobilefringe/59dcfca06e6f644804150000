@@ -17,7 +17,7 @@
         <div class="details_col_9" id="event_details_container">
             <div class="map_container">
                 <div class="map_overlay" onClick="style.pointerEvents='none'"></div>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1657.1724780445932!2d-118.0882922164944!3d33.82921356849743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dd2ddc4321897d%3A0x8a1d7e6676e1498!2s7575+Carson+Blvd%2C+Long+Beach%2C+CA+90808%2C+USA!5e0!3m2!1sen!2sca!4v1464197838436" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d46132.440039212735!2d-79.30440751855465!3d43.725561761751685!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x753b94b423a8fd85!2sEglinton+Square!5e0!3m2!1sen!2sus!4v1507831531256" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
             <div id="mm_page_content" class="details_desc"></div>
         </div>
