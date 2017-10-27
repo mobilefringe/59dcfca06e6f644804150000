@@ -74,6 +74,7 @@
             <img src="//codecloud.cdn.speedyrails.net/sites/57f503036e6f6454f2010000/image/png/1463501219000/open_menu.png" class="open_menu visible_phone" alt="open menu">
             <ul class="mobile_menu visible_phone">
                 <li><a href="/stores">DIRECTORY</a></li>
+                <li><a href="/dine">DINE</a></li>
                 <li><a href="/events-and-promotions">EVENTS & PROMOTIONS</a></li>
                 <li><a href="#" id="mobile_ddd">LEASING</a></li>
                 
