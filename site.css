@@ -24,11 +24,11 @@ $animation_color: black;
 }
 
 .stores_banner{
-    background-image: url(//codecloud.cdn.speedyrails.net/sites/57f503036e6f6454f2010000/image/jpeg/undefined/lbtc_1920x150_banner_directory.jpg);
+    background-image: url(//codecloud.cdn.speedyrails.net/sites/59dcfca06e6f644804150000/image/jpeg/1509128013000/InsidePgBanner-1920x150.jpg);
 }
 
 .events_banner{
-    background-image: url(//codecloud.cdn.speedyrails.net/sites/57f503036e6f6454f2010000/image/jpeg/undefined/lbtc_1920x150_banner_events.jpg);
+    background-image: url(//codecloud.cdn.speedyrails.net/sites/59dcfca06e6f644804150000/image/jpeg/1509128013000/InsidePgBanner-1920x150.jpgg);
 }
 
 .dine_banner{
@@ -36,21 +36,25 @@ $animation_color: black;
 }
 
 .jobs_banner{
-    background-image: url(//codecloud.cdn.speedyrails.net/sites/57f503036e6f6454f2010000/image/jpeg/undefined/lbtc_1920x150_banner_jobs.jpg);
+    background-image: url(//codecloud.cdn.speedyrails.net/sites/59dcfca06e6f644804150000/image/jpeg/1509128013000/InsidePgBanner-1920x150.jpg);
 }
 
 .location_banner{
-    background-image: url(//codecloud.cdn.speedyrails.net/sites/57f503036e6f6454f2010000/image/jpeg/undefined/lbtc_1920x150_banner_contact.jpg);
+    background-image: url(//codecloud.cdn.speedyrails.net/sites/59dcfca06e6f644804150000/image/jpeg/1509128013000/InsidePgBanner-1920x150.jpg);
 }
 
 .longbeach-services{
     background-image: url(//codecloud.cdn.speedyrails.net/sites/57f503036e6f6454f2010000/image/jpeg/undefined/lbtc_1920x150_banner_contact.jpg);
 }
 
-.longbeach-contact-us{
-    background-image: url(//codecloud.cdn.speedyrails.net/sites/57f503036e6f6454f2010000/image/jpeg/undefined/lbtc_1920x150_banner_contact.jpg);
+.eglinton-contact-us{
+    background-image: url(//codecloud.cdn.speedyrails.net/sites/59dcfca06e6f644804150000/image/jpeg/1509128013000/InsidePgBanner-1920x150.jpg);
 }
 
-.longbeach-privacy-policy{
-    background-image: url(//codecloud.cdn.speedyrails.net/sites/57f503036e6f6454f2010000/image/jpeg/undefined/lbtc_1920x150_banner_contact.jpg);
+.eglinton-privacy-policy{
+    background-image: url(//codecloud.cdn.speedyrails.net/sites/59dcfca06e6f644804150000/image/jpeg/1509128013000/InsidePgBanner-1920x150.jpg);
+}
+
+.eglinton-about-us{
+    background-image: url(//codecloud.cdn.speedyrails.net/sites/59dcfca06e6f644804150000/image/jpeg/1509128013000/InsidePgBanner-1920x150.jpg);
 }
