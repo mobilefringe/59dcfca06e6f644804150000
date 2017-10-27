@@ -114,10 +114,10 @@
                     <a href="/dine">Dine</a>
                     <a href="/location">Location</a>
                     <div class="dropdown">
-                        <a href="#" type="button" id="dropdownMenuCenterInfo" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Center Information</a>
+                        <a href="#" type="button" id="dropdownMenuCenterInfo" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Contact Us</a>
                         <ul class="dropdown-menu center_info_dd" aria-labelledby="dropdownMenuCenterInfo">
-                            <li><a href="/pages/longbeach-services">SERVICES</a></li>
-                            <li><a href="/pages/longbeach-contact-us">CONTACT</a></li>
+                            <li><a href="/contact_us">CONTACT US</a></li>
+                            <li><a href="/location">Find Us</a></li>
                         </ul>
                     </div>
                     <div class="clearfix"></div>
