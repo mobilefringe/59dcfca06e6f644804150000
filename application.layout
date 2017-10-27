@@ -78,8 +78,13 @@
                 <li><a href="/dine">DINE</a></li>
                 <li><a href="/location">LOCATION</a></li>
                 <li><a href="#" id="mobile_dd">CENTER INFORMATION</a></li>
-                <li class="hidden_now mobile_menu_dd"><a href="/pages/longbeach-services">SERVICES</a></li>
-                <li class="hidden_now mobile_menu_dd"><a href="/pages/longbeach-contact-us">CONTACT</a></li>
+                
+              <li class="hidden_now mobile_menu_dd"><a href="/contact_us">CONTACT US</a></li>
+                            <li class="hidden_now mobile_menu_dd"><a href="/location">Find Us</a></li>
+                             <li class="hidden_now mobile_menu_dd"><a href="/pages/eglinton-about-us">About Us</a></li>
+                              <li class="hidden_now mobile_menu_dd"><a href="/jobs">Jobs</a></li>
+                               <li class="hidden_now mobile_menu_dd"><a href="/hours">Shopping Hours</a></li>
+                               <li class="hidden_now mobile_menu_dd"><a href="/community">Community</a></li>
             </ul>
         </div>
         <div class="row">
