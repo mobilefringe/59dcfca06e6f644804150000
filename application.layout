@@ -121,14 +121,6 @@
                     <a href="/dine">Dine</a>
                     <a href="/events-and-promotions">Events & Promotions</a>
                     <div class="dropdown">
-                        <a href="#" type="button" id="dropdownMenuCenterInfo" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Center Information</a>
-                        <ul class="dropdown-menu center_info_dd" aria-labelledby="dropdownMenuCenterInfo">
-                             <!--<li><a href="/pages/valleyfair-services">SERVICES</a></li>-->
-                <li><a href="/pages/valleyfair-contact-us">CONTACT</a></li>
-                        </ul>
-                    </div>
-                 
-                    <div class="dropdown">
                         <a href="#" type="button" id="dropdownMenuCenterInfo" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Leasing</a>
                         <ul class="dropdown-menu center_info_dd" aria-labelledby="dropdownMenuCenterInfo">
                             <li><a href="leasing">Leasing</a></li>
