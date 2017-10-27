@@ -10,9 +10,8 @@
             <img src="//codecloud.cdn.speedyrails.net/sites/57f503036e6f6454f2010000/image/jpeg/undefined/lbtc_440x1200_side_events.jpg" /></a>
         </div>
         <div class="details_col_9">
-            <h5 id="events_header" class="details_header accordion_header" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="false" aria-controls="collapse1">
-                Events
-                <i class="fa fa-chevron-up pull-right"></i>
+            <h5 id="events_header" class="details_header accordion_header">
+                Regular Hours
             </h5>
         
             <h2>Regular Hours</h2>
