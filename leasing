@@ -1,14 +1,14 @@
 <div class="header_banner" id="top_banner">
     <div class="main_container">
-        <h4 class="header_banner_heading" id="mm_page_title"></h4>
+        <h4 class="header_banner_heading">Leasing</h4>
     </div>
 </div>
 <div class="main_container mobile_padding">
     <div class="details_row">
         <div class="details_col_3 hidden_phone">
-             <a href="/events-and-promotions">
-            <img id="side_image" src="//codecloud.cdn.speedyrails.net/sites/57f503036e6f6454f2010000/image/jpeg/undefined/lbtc_440x1200_side_events.jpg" />
-            </a>
+            <!--<a href="/events-and-promotions">-->
+                <img id="side_image" src="//codecloud.cdn.speedyrails.net/sites/57f503036e6f6454f2010000/image/jpeg/undefined/lbtc_440x1200_side_events.jpg" />
+            <!--</a>-->
         </div>
         <div class="details_col_9">
             <div id="mm_page_content" class="details_desc"></div>
