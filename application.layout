@@ -119,6 +119,14 @@
                     <a href="/dine">Dine</a>
                     <a href="/location">Location</a>
                     <div class="dropdown">
+                        <a href="#" type="button" id="dropdownMenuCenterInfo" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Leasing</a>
+                        <ul class="dropdown-menu center_info_dd" aria-labelledby="dropdownMenuCenterInfo">
+                            <li><a href="/pages/eglinton-leasing--2">Leasing</a></li>
+                            <li><a href="/photos">Photos</a></li>
+                             
+                        </ul>
+                    </div>
+                    <div class="dropdown">
                         <a href="#" type="button" id="dropdownMenuCenterInfo" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">CENTRE INFORMATION</a>
                         <ul class="dropdown-menu center_info_dd" aria-labelledby="dropdownMenuCenterInfo">
                             <li><a href="/contact_us">CONTACT US</a></li>
