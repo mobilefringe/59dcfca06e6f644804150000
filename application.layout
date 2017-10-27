@@ -118,6 +118,8 @@
                         <ul class="dropdown-menu center_info_dd" aria-labelledby="dropdownMenuCenterInfo">
                             <li><a href="/contact_us">CONTACT US</a></li>
                             <li><a href="/location">Find Us</a></li>
+                             <li><a href="/pages/eglinton-about-us">About Us</a></li>
+                              <li><a href="/jobs">Jobs</a></li>
                         </ul>
                     </div>
                     <div class="clearfix"></div>
