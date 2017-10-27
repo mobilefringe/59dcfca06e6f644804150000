@@ -129,7 +129,7 @@
                     <div class="dropdown">
                         <a href="#" type="button" id="dropdownMenuCenterInfo" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">CENTRE INFORMATION</a>
                         <ul class="dropdown-menu center_info_dd" aria-labelledby="dropdownMenuCenterInfo">
-                            <li><a href="/contact_us">CONTACT US</a></li>
+                            <li><a href="/contact_us">Contact Us/a></li>
                             <li><a href="/location">Find Us</a></li>
                              <li><a href="/pages/eglinton-about-us">About Us</a></li>
                               <li><a href="/jobs">Jobs</a></li>
