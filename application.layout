@@ -79,7 +79,7 @@
                 <li><a href="/location">LOCATION</a></li>
                 <li><a href="#" id="mobile_dd">CENTER INFORMATION</a></li>
                 
-              <li class="hidden_now mobile_menu_dd"><a href="/contact_us">CONTACT US</a></li>
+              <li class="hidden_now mobile_menu_dd"><a href="/contact_us">Contact Us</a></li>
                             <li class="hidden_now mobile_menu_dd"><a href="/location">Find Us</a></li>
                              <li class="hidden_now mobile_menu_dd"><a href="/pages/eglinton-about-us">About Us</a></li>
                               <li class="hidden_now mobile_menu_dd"><a href="/jobs">Jobs</a></li>
