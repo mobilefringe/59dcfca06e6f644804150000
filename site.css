@@ -17,6 +17,12 @@ $animation_color: black;
     background: $animation_color;
 }
 
+.top_menu a {
+  
+    padding: 0 12px;
+   
+}
+
 .stores_banner{
     background-image: url(//codecloud.cdn.speedyrails.net/sites/57f503036e6f6454f2010000/image/jpeg/undefined/lbtc_1920x150_banner_directory.jpg);
 }
