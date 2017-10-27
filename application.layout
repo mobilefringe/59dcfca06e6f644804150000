@@ -75,7 +75,7 @@
             <ul class="mobile_menu visible_phone">
                 <li><a href="/stores">DIRECTORY</a></li>
                 <li><a href="/events-and-promotions">EVENTS & PROMOTIONS</a></li>
-                <li><a href="/dine">DINE</a></li>
+     
                 <li><a href="/location">LOCATION</a></li>
                 <li><a href="#" id="mobile_dd">CENTER INFORMATION</a></li>
                 
