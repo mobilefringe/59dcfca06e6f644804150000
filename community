@@ -32,4 +32,72 @@
         
         show_content();
     }
+    
+    function validateEmail(){
+        var $email = $('#email'); //change form to id or containment selector
+        var re = /[A-Z0-9._%+-]+@[A-Z0-9.-]+.[A-Z]{2,4}/igm;
+    
+        if ($email.val() == '' || !re.test($email.val())){
+            return false;
+        }
+        return true;
+    }
+    	
+	function sendEmail(){
+	    var operatingName = $('#operatingName').val();
+	    var fax =  $('#fax').val();
+	    var lottery = $('#lottery').val();
+
+	    if($('#operatingName').val().length === 0){
+	        operatingName = 'N/A';
+	    }
+	    
+	    if($('#fax').val().length === 0){
+	        fax = 'N/A';
+	    }
+	    
+	    if($('#lottery').val().length === 0){
+	        lottery = 'N/A';
+	    }
+
+        $.ajax({
+            url : "//mallmaverick.com/send_contact_email",
+            type: "POST",
+            data : { 
+                'send_to': "DNeely@Bentallkennedy.com,ngoverde@bentallkennedy.com", 
+                'subject': "Eglinton Square Community Rental Form Application", 
+                'body': {
+                    "Legal Name of Organization": $('#legalName').val(), 
+                    "Operating Name of Organization(if different)": operatingName, 
+                    "Description of Organization": $('#descOrg').val(), 
+                    "Street Address":$('#address').val(),
+                    "Town/City":$('#city').val(), 
+                    "Postal Code" : $('#postal').val(), 
+                    "Email Address":$('#email').val(), 
+                    "Telephone Number": $('#phone').val(), 
+                    "Fax Number": fax,
+                    "Authorized Contact Person":$('#contactName').val(),
+                    "Name of Insurer": $('#insurerName').val(),
+                    "Charitable # (BN/Registration Number)": $('#charitable').val(),
+                    "Lottery License # (If applicable)":  $('#lottery').val(),
+                    "From Date(mm/dd/yyyy)":  $('#fromDate').val(),
+                    "To Date(mm/dd/yyyy)":  $('#toDate').val(),
+                    "Purpose for use of in-mall space":  $('#purpose').val(),
+                    "Please specify any other requirements":  $('#anyother').val(),
+                    "Anticipated Attendance":  $('#attendance').val()
+                } 
+            },
+            success: function(data, textStatus, jqXHR) {
+                $('#send_contact_success').fadeIn();
+                $('#community_form').find("input, textarea, select").val("");
+              
+                $("select option[value=0]").attr("selected", true);
+                $("html, body").animate({ scrollTop:  $("#send_contact_success").offset().top }, 1000);
+            },
+            error: function (jqXHR, textStatus, errorThrown) {
+                $('#send_contact_error').fadeIn();
+                $("html, body").animate({ scrollTop:  $("#send_contact_error").offset().top }, 1000);
+            }
+        });
+	}
 </script>
