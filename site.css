@@ -34,6 +34,9 @@ $animation_color: black;
     -ms-transform: translate(-50%, 0%);
     transform: translate(-50%, 0%);
 }
+.dropdown-menu>li>a {
+    float: none;
+}
 .leasing_dd {
     left: inherit;
     right: 3px;
