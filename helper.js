@@ -53,6 +53,7 @@ function show_content(){
 	})
 // 	var hours = getMallHours();
     var hours = getPropertyRegularHours();
+    console.log(hours)
 	var all_hours = []
 
     $.each(hours, function(i, v){
