@@ -27,8 +27,8 @@ $animation_color: black;
     color: #fff;
     z-index: 10001;
     position: absolute;
-    right: 3px;
-    max-width: 170px;
+    right: 44px;
+    max-width: 86px;
     padding-right: 15px;
 }
 .leasing_dd {
