@@ -40,10 +40,12 @@ $animation_color: black;
     border-radius: 0;
     padding-top: 50px;
 }
-
+.feature_row .feature_col {
+    text-align: center;
+}
 .feature_row .feature_col img {
     border-radius: 50%;
-    max-width: 110px;
+    max-width: 160px;
 }
 .feature_row .feature_col .feature_title {
     margin-left: 20px;
