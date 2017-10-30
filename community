@@ -163,6 +163,7 @@
                         <button class="btn btn-default community-btn main_btn" type="submit">Submit</button>
                     </div>
                 </div>
+                <br>
             </form>
         </div>
     </div>
