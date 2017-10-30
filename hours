@@ -15,7 +15,7 @@
             </h5>
             <div id="reg_hours_container">
                 <script id="reg_hours_template" type="x-tmpl-mustache/text">
-                    <div class="hours_div">
+                    <div class="regular_hours">
                         <div class="day">{{day}}:</div>
                         <div class="time">{{h}}</div>
                     </div>
@@ -27,7 +27,7 @@
             </h5>
             <div id="holiday_hours_container">
                 <script id="holiday_hours_template" type="x-tmpl-mustache/text">
-                    <div class="holiday_hours_div">
+                    <div class="holiday_hours">
                         <div class="day"> {{holiday_name}} </div>
                         <div class="time"> {{h}} ({{formatted_date}}) </div>
                     </div>
