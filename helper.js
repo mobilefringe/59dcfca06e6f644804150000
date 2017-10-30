@@ -52,7 +52,7 @@ function show_content(){
 	    $(this).find('i').toggleClass('fa-chevron-down fa-chevron-up');
 	})
 // 	var hours = getMallHours();
-    
+    var hours = getPropertyRegularHours();
 	var all_hours = []
 
     $.each(hours, function(i, v){
