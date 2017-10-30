@@ -39,6 +39,7 @@
     <script src="//codecloud.cdn.speedyrails.net/sites/56056be06e6f641a1d020000/text/javascript/1446569669000/instafeed.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.2.0/ekko-lightbox.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/js/bootstrap-datepicker.min.js"></script>
     <script src="//599eff566e6f6458b9840000.codecloudapp.com/application.js" type="text/javascript"></script>
     <script src="//580904016e6f64160b020000.codecloudapp.com/helpers.js" type="text/javascript"></script>
     <script src="../site.js" type="text/javascript"></script>
