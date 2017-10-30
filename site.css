@@ -23,6 +23,7 @@ $animation_color: black;
     padding: 0 15px;
 }
 .btn-group {
+    min-width: 86px;
     vertical-align: baseline;
 }
 .btn-group.open .dropdown-toggle {
