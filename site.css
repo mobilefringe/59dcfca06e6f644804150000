@@ -16,7 +16,9 @@ $animation_color: black;
 .animated_btn:before{
     background: $animation_color;
 }
-
+.top_menu {
+    float: right;
+}
 .top_menu a {
   
     padding: 0 14px;
@@ -25,15 +27,6 @@ $animation_color: black;
 .btn-group {
     vertical-align: baseline;
 }
-// .open #dropdownMenuLeasing {
-//     background: #000;
-//     color: #fff;
-//     z-index: 10001;
-//     position: absolute;
-//     right: 44px;
-//     max-width: 86px;
-//     padding-right: 15px;
-// }
 .leasing_dd {
     left: inherit;
     right: 3px;
