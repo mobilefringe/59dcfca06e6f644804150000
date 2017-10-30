@@ -1,0 +1,39 @@
+<div class="header_banner stores_banner" >
+    <div class="main_container">
+        <h4 class="header_banner_heading">Photos</h4>
+    </div>
+</div>
+<div class="main_container mobile_padding">
+    <div class="details_row">
+        <div class="details_col_3 hidden_phone">
+            <a href="/events-and-promotions">
+            <img src="//codecloud.cdn.speedyrails.net/sites/57f503036e6f6454f2010000/image/jpeg/undefined/lbtc_440x1200_side_events.jpg" /></a>
+        </div>
+        <div class="details_col_9">
+            <h5 id="events_header" class="details_header accordion_header">
+                Leasing Photos
+            </h5>
+            <div id="portfolio_container">
+                <script id="portfolio_template" type="x-tmpl-mustache/text">
+                    <div class="col-md-6 portfolio_item">
+                        <a href="{{image_url}}" data-toggle="lightbox">
+                            <img alt="photo{{id}}" src="{{image_url}}">
+                        </a>
+                    </div> 
+               </script>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $(document).ready(function(e){
+        init(e);
+        loadMallDataCached(renderPage);
+    })
+    function renderPage(){
+        var leasing_photos = getRepoDetailsByName("photos").images;
+        renderGeneral("#portfolio_container", "#portfolio_template", leasing_photos);
+
+        show_content();
+    }
+</script>
