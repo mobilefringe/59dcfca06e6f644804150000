@@ -6,17 +6,13 @@
 <div class="main_container mobile_padding">
     <div class="details_row">
         <div class="details_col_3 hidden_phone">
-            <!--<a href="/events-and-promotions">-->
-                <img id="side_image" src="//codecloud.cdn.speedyrails.net/sites/57f503036e6f6454f2010000/image/jpeg/undefined/lbtc_440x1200_side_events.jpg" />
-            <!--</a>-->
+            <img id="side_image" src="//codecloud.cdn.speedyrails.net/sites/57f503036e6f6454f2010000/image/jpeg/undefined/lbtc_440x1200_side_events.jpg" />
         </div>
         <div class="details_col_9">
             <div id="mm_page_content" class="details_desc"></div>
         </div>
     </div>
 </div>
-
-
 <script>
     $(document).ready(function(e){
         init(e);
@@ -26,9 +22,6 @@
     function renderPage(){
         var pathArray = window.location.pathname.split( '/' );
         var slug = pathArray[pathArray.length-1];
-          if (slug == "longbeach-contact-us"){
-           $('#side_image').attr('src', "//codecloud.cdn.speedyrails.net/sites/57f503036e6f6454f2010000/image/jpeg/undefined/lbtc_440x1200_side_jobs.jpg")
-        }
     
         var prefix = get_prefix();
             var pages_json = prefix + "/pages/eglinton-leasing--2.json"
