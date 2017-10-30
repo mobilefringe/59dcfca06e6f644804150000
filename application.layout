@@ -121,8 +121,8 @@
                     <a href="/dine">Dine</a>
                     <a href="/events-and-promotions">Events & Promotions</a>
                     <div class="dropdown">
-                        <a href="#" type="button" id="dropdownMenuCenterInfo" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Leasing</a>
-                        <ul class="dropdown-menu center_info_dd" aria-labelledby="dropdownMenuCenterInfo">
+                        <a href="#" type="button" id="dropdownMenuLeasing" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Leasing</a>
+                        <ul class="dropdown-menu leasing_dd" aria-labelledby="dropdownMenuLeasing">
                             <li><a href="/leasing">Leasing</a></li>
                             <li><a href="/photos">Photos</a></li>
                         </ul>
