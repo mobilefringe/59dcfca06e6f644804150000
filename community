@@ -100,24 +100,26 @@
                         <label for="insurerName">Name of Insurer</label>
                         <input name="insurerName" id="insurerName" class="form-control" type="text"   />
                     </div>
-                
-                <div class="col-sm-4 col-md-4 padding-left-none">
-                    <label for="charitable">Charitable <span># (BN/Registration Number)</span></label>
-                    <input name="charitable" id="charitable" class="form-control" type="text" value  />
                 </div>
-                <div class="col-sm-4 col-md-4 padding-right-none">
-                    <label for="lottery">Lottery License <span># (If applicable)</span></label>
-                    <input name="lottery" id="lottery" class="form-control" type="text" value  />
-                </div>
-                <div class="col-sm-4 col-md-4 padding-right-none">
-                    <div class="col-sm-6 col-md-6 padding-right-none">
-                        <label for="fromDate">From Date</label>
-                        <input name="fromDate" id="fromDate" placeholder="mm/dd/yyyy" class="form-control" type="text" value  />
+                <div class="row">
+                    <div class="col-sm-4 col-md-4 padding-left-none">
+                        <label for="charitable">Charitable <span># (BN/Registration Number)</span></label>
+                        <input name="charitable" id="charitable" class="form-control" type="text" value  />
                     </div>
-                     <div class="col-sm-6 col-md-6 padding-right-none">
-                         <label for="toDate">To Date</label>
-                        <input name="toDate" id="toDate" placeholder="mm/dd/yyyy" class="form-control" type="text" value  />
-                     </div>
+                    <div class="col-sm-4 col-md-4 padding-right-none">
+                        <label for="lottery">Lottery License <span># (If applicable)</span></label>
+                        <input name="lottery" id="lottery" class="form-control" type="text" value  />
+                    </div>
+                    <div class="col-sm-4 col-md-4 padding-right-none">
+                        <div class="col-sm-6 col-md-6 padding-right-none">
+                            <label for="fromDate">From Date</label>
+                            <input name="fromDate" id="fromDate" placeholder="mm/dd/yyyy" class="form-control" type="text" value  />
+                        </div>
+                         <div class="col-sm-6 col-md-6 padding-right-none">
+                             <label for="toDate">To Date</label>
+                            <input name="toDate" id="toDate" placeholder="mm/dd/yyyy" class="form-control" type="text" value  />
+                         </div>
+                    </div>
                 </div>
                 
                 
