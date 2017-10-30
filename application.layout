@@ -80,10 +80,10 @@
                 <li><a href="/stores">DIRECTORY</a></li>
                 <li><a href="/dine">DINE</a></li>
                 <li><a href="/events-and-promotions">EVENTS & PROMOTIONS</a></li>
-                <li><a href="#" id="mobile_dd">LEASING</a></li>
+                <li><a href="#" id="mobile_leasing">LEASING</a></li>
                 <li class="hidden_now mobile_menu_ddd"><a href="/leasing">Leasing</a></li>
                 <li class="hidden_now mobile_menu_ddd"><a href="/photos">Photos</a></li>
-                <li><a href="#" id="mobile_dd">CENTER INFORMATION</a></li>
+                <li><a href="#" id="mobile_contact">CENTER INFORMATION</a></li>
                 <li class="hidden_now mobile_menu_dd"><a href="/contact_us">Contact Us</a></li>
                 <li class="hidden_now mobile_menu_dd"><a href="/location">Find Us</a></li>
                 <li class="hidden_now mobile_menu_dd"><a href="/about_us">About Us</a></li>
