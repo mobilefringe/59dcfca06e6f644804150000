@@ -130,7 +130,7 @@
                     <!--    </ul>-->
                     <!--</div>-->
                     
-                    <div class="dropdown">
+                    <div class="btn-group dropdown">
                         <a class="btn btn-secondary dropdown-toggle" href="#" id="dropdownMenuLeasing" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Leasing
                         </a>
