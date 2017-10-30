@@ -152,13 +152,9 @@
                     <!--    </ul>-->
                     <!--</div>-->
                     
-                    <div class="dropdown">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuContact" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Centre Information
-  </button>
-                        <!--<a class="btn btn-secondary dropdown-toggle" href="#" id="dropdownMenuContact" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
-                        <!--    Centre Information-->
-                        <!--</a>-->
+                        <a class="btn btn-secondary dropdown-toggle" href="#" id="dropdownMenuContact" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Centre Information
+                        </a>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuContact">
                             <li><a class="dropdown-item" href="/contact_us">Contact Us</a></li>
                             <li><a class="dropdown-item" href="/location">Find Us</a></li>
