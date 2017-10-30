@@ -36,6 +36,7 @@ $animation_color: black;
     color: #FFF;
 }
 .dropdown-menu {
+    margin: 0;
     left: 50%;
     -webkit-transform: translate(-50%, 0%);
     -ms-transform: translate(-50%, 0%);
