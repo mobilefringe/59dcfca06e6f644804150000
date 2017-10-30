@@ -27,6 +27,7 @@
                         <label for="name">Name</label>
                         <input name="name" id="name" class="form-control" type="text" value="" required data-validation="required">
                     </div>
+                    <br>
                     <div class="col-md-6">
                         <label for="email" >E-mail</label>
                         <input name="email" id="email" class="form-control" type="text" value="" required data-validation="required">
