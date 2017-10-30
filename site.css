@@ -36,6 +36,7 @@ $animation_color: black;
 }
 .dropdown-menu>li>a {
     float: none;
+    text-align: center;
 }
 .leasing_dd {
     left: inherit;
