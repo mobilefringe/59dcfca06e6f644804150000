@@ -27,6 +27,7 @@ $animation_color: black;
     max-width: 110px;
 }
 .feature_row .feature_col .feature_title {
+    margin-left: 20px;
     display: inline-block;
     font-family: Avenir-Book;
     font-size: 18px;
