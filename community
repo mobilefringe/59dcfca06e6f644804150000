@@ -20,7 +20,7 @@
                 There was an error when trying to submit your request. Please ensure you have entered a valid email address and subject and try again.
             </div>
             <form name="community_form" id="community_form" method="post">
-                <p class="promo_header right_column_header">Business Contact Info</p>
+                <h5 class="details_header accordion_header">Business Contact Info</h5>
             
                 <div class="row">
                     <div class="col-md-6">
