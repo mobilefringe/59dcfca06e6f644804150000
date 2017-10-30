@@ -28,7 +28,7 @@ $animation_color: black;
     vertical-align: baseline;
 }
 .btn-group.open .dropdown-toggle {
-    
+    border-radius: 0;
     border-left: 1px solid #FFF;
     border-right: 1px solid #FFF;
     background: #000;
