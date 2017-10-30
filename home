@@ -63,19 +63,19 @@
         <div class="feature_col">
             <a href="/stores">
                 <img src="//codecloud.cdn.speedyrails.net/sites/59dcfca06e6f644804150000/image/jpeg/1509373327000/Directory.jpg" alt="Feature item" />
-                <p>Directory</p>
+                <p class="feature_title">Directory</p>
             </a>
         </div>
         <div class="feature_col">
             <a href="/dine">
                 <img src="//codecloud.cdn.speedyrails.net/sites/59dcfca06e6f644804150000/image/jpeg/1509373010000/dine.jpg" alt="Feature item" />
-                <p>Dine</p>
+                <p class="feature_title">Dine</p>
             </a>
         </div>
         <div class="feature_col">
             <a href="/events-and-promotions">
                 <img src="//codecloud.cdn.speedyrails.net/sites/59dcfca06e6f644804150000/image/jpeg/1509373010000/Events_Promotions.jpg" alt="Feature item" />
-                <p>Events & Promotions</p>
+                <p class="feature_title">Events & Promotions</p>
             </a>
         </div>
     </div>
