@@ -14,16 +14,26 @@
         <i class="fa fa-remove close_popup"></i>
     </script>
 </div>
+<!--<div class="flexslider">-->
+<!--    <ul class="slides" id="home_banner">-->
+<!--        <script id="banner_template" type="x-tmpl-mustache/text">-->
+<!--            <li>-->
+<!--                <div style="background-image:url({{image_url}})" class="banner_image_div">-->
+<!--                    <a class="banner_image_li" href="{{url}}" {{css}} onclick="{{noLink}}" >-->
+<!--                    </a>-->
+<!--                </div>-->
+<!--            </li>-->
+<!--        </script>-->
+<!--    </ul>-->
+<!--</div>-->
 <div class="flexslider">
-    <ul class="slides" id="home_banner">
-        <script id="banner_template" type="x-tmpl-mustache/text">
-            <li>
-                <div style="background-image:url({{image_url}})" class="banner_image_div">
-                    <a class="banner_image_li" href="{{url}}" {{css}} onclick="{{noLink}}" >
-                    </a>
-                </div>
-            </li>
-        </script>
+    <ul class="slides">
+        <li>
+            <div style="background-image:url(//codecloud.cdn.speedyrails.net/sites/59dcfca06e6f644804150000/image/jpeg/1509372193000/Banner1.jpg)" class="banner_image_div">
+                <a class="banner_image_li" href="{{url}}"></a>
+            </div>
+        </li>
+
     </ul>
 </div>
 <div class="main_container mobile_padding">
