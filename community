@@ -32,6 +32,7 @@
                         <input name="operatingName" id="operatingName" class="form-control" type="text"   />
                     </div>
                 </div>
+                <br>
                 <div class="row">
                     <div class="col-md-6 ">
                         <label for="descOrg">Description of Organization</label>
@@ -59,6 +60,7 @@
                         </div>
                     </div>
                 </div>
+                <br>
                 <div class="row">
                     <div class="col-md-12">
                         <div class="row">
