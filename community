@@ -73,6 +73,7 @@
                                 <label for="email">Email Address</label>
                                 <input name="email" id="email" class="form-control" type="email"  />
                             </div>
+                            <br class="visible_phone">
                             <div class="col-md-6">
                                 <div class="row">
                                     <div class="col-md-12">
@@ -81,6 +82,7 @@
                                                 <label for="phone">Telephone Number</label>
                                                 <input name="phone" id="phone" class="form-control" type="text"  />
                                             </div>
+                                            <br class="visible_phone">
                                             <div class="col-md-6">
                                                 <label for="fax">Fax Number</label>
                                                 <input name="fax" id="fax" class="form-control" type="text"/>
