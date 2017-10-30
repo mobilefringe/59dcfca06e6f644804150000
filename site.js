@@ -5,10 +5,7 @@ var site_json = {
                     "social_feed" : "//longbeach.mallmaverick.com/api/v2/longbeach/social.json"
                 }
                 
-$(document).on('click', '[data-toggle="lightbox"]', function(event) {
-    event.preventDefault();
-    $(this).ekkoLightbox();
-});                
+                
                 
 function renderHours(container, template, collection, type){
     var item_list = [];
