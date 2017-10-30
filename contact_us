@@ -23,25 +23,25 @@
             </div>
             <form name="contact_form" id="contact_form" method="post">
                 <div class="row">
-                    <div class="col-sm-6">
+                    <div class="col-md-6">
                         <label for="name">Name</label>
                         <input name="name" id="name" class="form-control" type="text" value="" required data-validation="required">
                     </div>
-                    <div class="col-sm-6">
+                    <div class="col-md-6">
                         <label for="email" >E-mail</label>
                         <input name="email" id="email" class="form-control" type="text" value="" required data-validation="required">
                     </div>
                 </div>
                 <br>
                 <div class="row">
-                    <div class="col-sm-12">
+                    <div class="col-md-12">
                         <label for="subject">Subject</label>
                         <input name="subject" id="subject" class="form-control" type="text" required data-validation="required">
                     </div>
                 </div>
                 <br>
                 <div class="row">
-                    <div class="col-sm-12">
+                    <div class="col-md-12">
                         <label for="message">Message</label>
                         <textarea name="message" id="message" rows="8" class="form-control" required data-validation="required"></textarea>
                     </div>
