@@ -112,7 +112,7 @@ $animation_color: black;
     color: #4B4B4B;
     line-height: 30px;
 }
-.day {
+.regular_hours.day, .holiday_hours.day {
     width: 30%;
 }
 .portfolio_item img {
