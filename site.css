@@ -22,6 +22,9 @@ $animation_color: black;
     padding: 0 14px;
    
 }
+.btn-group {
+    vertical-align: baseline;
+}
 // .open #dropdownMenuLeasing {
 //     background: #000;
 //     color: #fff;
