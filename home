@@ -45,16 +45,39 @@
         </li>
     </ul>
 </div>
+<!--<div class="main_container mobile_padding">-->
+<!--    <div class="feature_row" id="feature_container">-->
+<!--        <script id="feature_template" type="x-tmpl-mustache/text">-->
+<!--            <div class="feature_col">-->
+<!--                <a href="{{url}}">-->
+<!--                    <img src="{{image_url}}" alt="Feature item" />-->
+<!--                    <p>{{name}}</p>-->
+<!--                </a>-->
+<!--            </div>-->
+<!--        </script>-->
+<!--    </div>-->
+<!--</div>-->
 <div class="main_container mobile_padding">
     <div class="feature_row" id="feature_container">
-        <script id="feature_template" type="x-tmpl-mustache/text">
-            <div class="feature_col">
-                <a href="{{url}}">
-                    <img src="{{image_url}}" alt="Feature item" />
-                    <p>{{name}}</p>
-                </a>
-            </div>
-        </script>
+
+        <div class="feature_col">
+            <a href="/stores">
+                <img src="//codecloud.cdn.speedyrails.net/sites/59dcfca06e6f644804150000/image/jpeg/1509373010000/Directory.jpg" alt="Feature item" />
+                <p>Directory</p>
+            </a>
+        </div>
+        <div class="feature_col">
+            <a href="/stores">
+                <img src="//codecloud.cdn.speedyrails.net/sites/59dcfca06e6f644804150000/image/jpeg/1509373010000/dine.jpg" alt="Feature item" />
+                <p>Dine</p>
+            </a>
+        </div>
+        <div class="feature_col">
+            <a href="/stores">
+                <img src="//codecloud.cdn.speedyrails.net/sites/59dcfca06e6f644804150000/image/jpeg/1509373010000/Events_Promotions.jpg" alt="Feature item" />
+                <p>Events & Promotions</p>
+            </a>
+        </div>
     </div>
 </div>
 <script>
