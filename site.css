@@ -43,6 +43,9 @@ $animation_color: black;
 .feature_row .feature_col {
     text-align: center;
 }
+.feature_row .feature_col a:hover {
+    text-decoration: none;
+}
 .feature_row .feature_col img {
     border-radius: 50%;
     max-width: 160px;
