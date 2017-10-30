@@ -102,6 +102,7 @@
                         <label for="contactName">Authorized Contact Person</label>
                         <input name="contactName" id="contactName" class="form-control" type="text" value  />
                     </div>
+                    <br class="visible_phone">
                     <div class="col-md-6">
                         <label for="insurerName">Name of Insurer</label>
                         <input name="insurerName" id="insurerName" class="form-control" type="text"   />
@@ -113,16 +114,19 @@
                         <label for="charitable">Charitable <span># (BN/Registration Number)</span></label>
                         <input name="charitable" id="charitable" class="form-control" type="text" value  />
                     </div>
+                    <br class="visible_phone">
                     <div class="col-md-4">
                         <label for="lottery">Lottery License <span># (If applicable)</span></label>
                         <input name="lottery" id="lottery" class="form-control" type="text" value  />
                     </div>
+                    <br class="visible_phone">
                     <div class="col-md-4">
                         <div class="row">
                             <div class="col-md-6">
                                 <label for="fromDate">From Date</label>
                                 <input name="fromDate" id="fromDate" placeholder="mm/dd/yyyy" class="form-control" type="text" value  />
                             </div>
+                            <br class="visible_phone">
                             <div class="col-md-6">
                                 <label for="toDate">To Date</label>
                                 <input name="toDate" id="toDate" placeholder="mm/dd/yyyy" class="form-control" type="text" value  />
@@ -145,6 +149,7 @@
                                 <label for="anyother">Please specify any other requirements</label>
                                 <textarea name="anyother" id="anyother" class="form-control" rows="5" ></textarea>
                             </div>
+                            <br class="visible_phone">
                             <div class="col-md-6">
                                 <label for="attendance">Anticipated Attendance</label>
                                 <input name="attendance" id="attendance" class="form-control" type="text"  />
