@@ -89,18 +89,17 @@
                         </div>
                     </div>
                 </div> 
+                <h5 class="details_header accordion_header">Contact Info</h5>
      
-     
-            <p class="promo_header right_column_header">Contact Info</p>
-            <div class="row">
-                <div class="col-sm-6 col-md-6 padding-left-none">
-                    <label for="contactName">Authorized Contact Person</label>
-                    <input name="contactName" id="contactName" class="form-control" type="text" value  />
-                </div>
-                <div class="col-sm-6 col-md-6 padding-right-none">
-                    <label for="insurerName">Name of Insurer</label>
-                    <input name="insurerName" id="insurerName" class="form-control" type="text"   />
-                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <label for="contactName">Authorized Contact Person</label>
+                        <input name="contactName" id="contactName" class="form-control" type="text" value  />
+                    </div>
+                    <div class="col-md-6">
+                        <label for="insurerName">Name of Insurer</label>
+                        <input name="insurerName" id="insurerName" class="form-control" type="text"   />
+                    </div>
                 
                 <div class="col-sm-4 col-md-4 padding-left-none">
                     <label for="charitable">Charitable <span># (BN/Registration Number)</span></label>
