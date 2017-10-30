@@ -104,8 +104,8 @@ $animation_color: black;
 #stores_container {
     max-height: 351px;
 }
-.regular_hours.day, .regular_hours.time,
-.holiday_hours.day, .holiday_hours.time {
+.regular_hours .day, .regular_hours .time,
+.holiday_hours .day, .holiday_hours .time {
     display: inline-block;
     font-family: Avenir-Book;
     font-size: 18px;
