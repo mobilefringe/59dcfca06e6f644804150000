@@ -49,9 +49,9 @@ $animation_color: black;
 }
 .feature_row .feature_col .feature_title {
     margin-top: 20px;
-    // display: inline-block;
-    font-family: Avenir-Book;
-    font-size: 18px;
+    font-family: Georgia;
+    font-style: italic;
+    font-size: 22px;
     color: #4B4B4B;
     line-height: 30px;
 }
