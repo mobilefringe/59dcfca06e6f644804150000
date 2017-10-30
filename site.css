@@ -27,6 +27,12 @@ $animation_color: black;
 .btn-group {
     vertical-align: baseline;
 }
+.btn-group.open .dropdown-toggle {
+    
+    border-left: 1px solid #FFF;
+    border-right: 1px solid #FFF;
+    background: #000;
+}
 .dropdown-menu {
     left: 50%;
     -webkit-transform: translate(-50%, 0%);
