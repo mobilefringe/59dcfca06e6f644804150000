@@ -187,11 +187,11 @@
         
         show_content();
         
-        // $.fn.datepicker.defaults.format = "mm/dd/yyyy";
-        // $('#fromDate').datepicker({
-        //     todayHighlight:true
-        // });
-        // $('#toDate').datepicker({});
+        $.fn.datepicker.defaults.format = "mm/dd/yyyy";
+        $('#fromDate').datepicker({
+            todayHighlight:true
+        });
+        $('#toDate').datepicker({});
                 
         $('#community_form').submit(function(e) {
             if ($('#legalName').val().length === 0){
