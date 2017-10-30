@@ -98,3 +98,7 @@ $animation_color: black;
     color: #4B4B4B;
     line-height: normal;
 }
+.main_btn {
+    border: none;
+    border-radius: 0;
+}
