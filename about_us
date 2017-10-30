@@ -24,7 +24,7 @@
         var slug = pathArray[pathArray.length-1];
     
         var prefix = get_prefix();
-            var pages_json = prefix + "/pages/eglinton-leasing--2.json"
+            var pages_json = prefix + "/pages/eglinton-about-us.json"
             $.getJSON(pages_json).done(function(data) {
                 $('#mm_page_content').html(data.body);
             }).fail(function(jqXHR) {
