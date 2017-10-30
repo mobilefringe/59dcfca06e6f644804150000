@@ -49,9 +49,10 @@
                 <br>
                 <div class="row">
                     <div class="col-sm-12">
-                        <label for="enterVerify">Enter the following number below to proceed: <div id="verifyNum"></div></label><br>
+                        <label for="enterVerify">Enter the following number below to proceed: <div id="verifyNum"></div></label>
+                        <br>
                         <input type="hidden" value="701469" id="verifyNumHidden" name="verifyNumHidden" />
-                        <input type="text" id="enterVerify" name="enterVerify" />
+                        <input class="form-control" type="text" id="enterVerify" name="enterVerify" />
                     </div>
                 </div>
                 <br>
