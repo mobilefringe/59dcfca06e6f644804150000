@@ -44,7 +44,9 @@
                                 <label for="address">Street Address</label>
                                 <input name="address" id="address" class="form-control" type="text"  />
                             </div>
-                            <br>
+                        </div>
+                        <br>
+                        <div class="row">
                             <div class="col-md-12">
                                 <div class="row">
                                     <div class="col-md-6">
