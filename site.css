@@ -47,8 +47,8 @@ $animation_color: black;
     text-decoration: none;
 }
 .feature_row .feature_col img {
-    border-radius: 50%;
-    max-width: 160px;
+    // border-radius: 50%;
+    // max-width: 160px;
 }
 .feature_row .feature_col .feature_title {
     margin-top: 20px;
