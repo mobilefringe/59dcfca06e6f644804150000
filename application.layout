@@ -156,16 +156,16 @@
                         <a class="btn btn-secondary dropdown-toggle" href="#" id="dropdownMenuContact" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Centre Information
                         </a>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenuContact">
-                            <a class="dropdown-item" href="/leasing">Leasing</a>
-                            <a class="dropdown-item" href="/photos">Photos</a>
-                            <a class="dropdown-item" href="/contact_us">Contact Us</a>
-                            <a class="dropdown-item" href="/location">Find Us</a>
-                            <a class="dropdown-item" href="/about_us">About Us</a>
-                            <a class="dropdown-item" href="/jobs">Jobs</a>
-                            <a class="dropdown-item" href="/hours">Shopping Hours</a>
-                            <a class="dropdown-item" href="/community">Community</a>
-                        </div>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuContact">
+                            <li><a class="dropdown-item" href="/leasing">Leasing</a></li>
+                            <li><a class="dropdown-item" href="/photos">Photos</a></li>
+                            <li><a class="dropdown-item" href="/contact_us">Contact Us</a></li>
+                            <li><a class="dropdown-item" href="/location">Find Us</a></li>
+                            <li><a class="dropdown-item" href="/about_us">About Us</a></li>
+                            <li><a class="dropdown-item" href="/jobs">Jobs</a></li>
+                            <li><a class="dropdown-item" href="/hours">Shopping Hours</a></li>
+                            <li><a class="dropdown-item" href="/community">Community</a></li>
+                        </ul>
                     </div>
                     
                     <div class="clearfix"></div>
