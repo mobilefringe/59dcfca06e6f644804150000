@@ -553,6 +553,38 @@ function renderJobDetails(container, template, collection){
     $(container).html(item_rendered.join(''));
 }
 
+function renderHomeHours(container, template, collection){
+    var item_list = [];
+    var item_rendered = [];
+    var template_html = $(template).html();
+    Mustache.parse(template_html);   // optional, speeds up future uses
+    $.each( collection , function( key, val ) {
+        // var d = new Date();
+        // var open_time = new Date (val.open_time);
+        // var close_time = new Date (val.close_time);
+        // val.open_time = convert_hour(open_time);
+        // val.close_time = convert_hour(close_time);  
+        // if (val.is_closed == true){
+        //     val.hour = "Closed"
+        // }
+        // else{
+        //     val.hour = val.open_time+ " - " + val.close_time;
+        // }
+        
+        var d = moment();
+        var open_time = moment(val.open_time).tz(getPropertyTimeZone());
+        var close_time = moment(val.close_time).tz(getPropertyTimeZone());
+        if (val.is_closed == true){
+            val.hour = "Closed"
+        } else {
+            val.hour = open_time.format("h:mma") + " - " + close_time.format("h:mma");
+        } 
+        var rendered = Mustache.render(template_html,val);
+        item_rendered.push(rendered);
+    });
+    $(container).html(item_rendered.join(''));
+}
+
 function renderHours(container, template, collection, type){
     var item_list = [];
     var item_rendered = [];
