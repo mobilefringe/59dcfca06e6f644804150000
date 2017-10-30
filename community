@@ -132,21 +132,28 @@
                         <textarea name="purpose" id="purpose" class="form-control" rows="5" ></textarea>
                     </div>
                 </div>
-            
-                <div class="col-sm-12 col-md-12 padding-side-none">
-                   <div class="col-sm-6 col-md-6 padding-left-none">
-                        <label for="anyother">Please specify any other requirements</label>
-                        <textarea name="anyother" id="anyother" class="form-control" rows="5" ></textarea>
-                    </div>
-                   <div class="col-sm-6 col-md-6 padding-left-none">
-                        <label for="attendance">Anticipated Attendance</label>
-                        <input name="attendance" id="attendance" class="form-control" type="text"  />
+                <br>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label for="anyother">Please specify any other requirements</label>
+                                <textarea name="anyother" id="anyother" class="form-control" rows="5" ></textarea>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="attendance">Anticipated Attendance</label>
+                                <input name="attendance" id="attendance" class="form-control" type="text"  />
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            
-            <button class="btn btn-default community-btn" type="submit">Submit</button>
-        </form>
+                <br>
+                <div class="row">
+                    <div class="col-md-12">
+                        <button class="btn btn-default community-btn" type="submit">Submit</button>
+                    </div>
+                </div>
+            </form>
         </div>
     </div>
 </div>
