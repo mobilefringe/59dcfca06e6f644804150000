@@ -20,9 +20,7 @@ $animation_color: black;
     float: right;
 }
 .top_menu a {
-  
-    padding: 0 14px;
-   
+    padding: 0 15px;
 }
 .btn-group {
     vertical-align: baseline;
