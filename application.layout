@@ -135,8 +135,8 @@
                             Leasing
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuLeasing">
-                            <li></li><a class="dropdown-item" href="/leasing">Leasing</a></li>
-                            <li></li><a class="dropdown-item" href="/photos">Photos</a></li>
+                            <li><a class="dropdown-item" href="/leasing">Leasing</a></li>
+                            <li><a class="dropdown-item" href="/photos">Photos</a></li>
                         </ul>
                     </div>
 
