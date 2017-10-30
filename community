@@ -5,10 +5,10 @@
 </div>
 <div class="main_container mobile_padding">
     <div class="details_row">
-        <div class="details_col_3 hidden_phone">
-            <img id="side_image" src="//codecloud.cdn.speedyrails.net/sites/57f503036e6f6454f2010000/image/jpeg/undefined/lbtc_440x1200_side_events.jpg" />
-        </div>
-        <div class="details_col_9">
+        <!--<div class="details_col_3 hidden_phone">-->
+        <!--    <img id="side_image" src="//codecloud.cdn.speedyrails.net/sites/57f503036e6f6454f2010000/image/jpeg/undefined/lbtc_440x1200_side_events.jpg" />-->
+        <!--</div>-->
+        <div class="details_col_12">
             <div id="mm_page_content" class="details_desc"></div>
             <br>
             <div id="send_contact_success" class="alert alert-success" role="alert" style="display:none">
