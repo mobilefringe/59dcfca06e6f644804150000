@@ -51,11 +51,9 @@ function show_content(){
 	    $('.open_' + initial).slideToggle();
 	    $(this).find('i').toggleClass('fa-chevron-down fa-chevron-up');
 	})
-// 	var hours = getMallHours();
-    var hours = getPropertyRegularHours();
-    console.log(hours)
-	var all_hours = []
 
+    var hours = getPropertyRegularHours();
+	var all_hours = []
     $.each(hours, function(i, v){
         if ((v.day_of_week == 1 || v.day_of_week == 0 || v.day_of_week == 6) && (v.is_holiday != true )){
             switch(v.day_of_week) {
@@ -78,7 +76,6 @@ function show_content(){
     
     get_instagram(site_json.social_feed, 15, 'thumbnail', render_instagram)
 }
-
 
 function render_instagram(data){
     $('#instafeed').html(data)
