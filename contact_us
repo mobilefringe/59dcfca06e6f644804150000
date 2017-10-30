@@ -87,26 +87,42 @@
             
         $.validate();
         
+        randomgen();
+        
         show_content();
         
         $('#contact_form').submit(function(e) {
-            values = [];
-            values = JSON.stringify($('#contact_form').serializeArray());
-            e.preventDefault();
-            $.ajax({
-                url : "/api/v1/contact_us",
-                type: "POST",
-                data : {authenticity_token: '<%=form_authenticity_token%>' ,
-                form_data:values},
-                success: function(data, textStatus, jqXHR) {
-                    $('#send_contact_success').fadeIn();
-                    $('#contact_form').find("input[type=text], textarea").val("");
-                },
-                error: function (jqXHR, textStatus, errorThrown) {
-                    $('html, body').animate({scrollTop : 0},800);
-                    $('#send_contact_error').fadeIn();
-                }
-            });
-    	});
+            if($('#enterVerify').val() == $('#verifyNumHidden').val() ) {
+                values = [];
+                values = JSON.stringify($('#contact_form').serializeArray());
+                e.preventDefault();
+                $.ajax({
+                    url : "/api/v1/contact_us",
+                    type: "POST",
+                    data : {authenticity_token: '<%=form_authenticity_token%>' ,
+                    form_data:values},
+                    success: function(data, textStatus, jqXHR){
+                        $('#send_contact_success').fadeIn();
+                        $('#contact_form').find("input[type=text], textarea").val("");
+                    },
+                    error: function (jqXHR, textStatus, errorThrown) {
+                        $('#send_contact_error').fadeIn();
+                    }
+                });
+            } else {
+                alert("Please Enter Correct Verification Number");
+                randomgen();
+                e.preventDefault();
+            }
+        });
+    }
+    
+    function randomgen() {
+        var rannumber='';
+        for(ranNum=1; ranNum<=6; ranNum++){
+            rannumber+=Math.floor(Math.random()*10).toString();
+        }
+        $('#verifyNum').html(rannumber);
+        $('#verifyNumHidden').val(rannumber);
     }
 </script>
