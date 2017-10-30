@@ -76,3 +76,7 @@ $animation_color: black;
 .day {
     width: 30%;
 }
+.portfolio_item img {
+    margin-bottom: 20px;
+    max-width: 100%;
+}
