@@ -22,15 +22,15 @@ $animation_color: black;
     padding: 0 14px;
    
 }
-.open #dropdownMenuLeasing {
-    background: #000;
-    color: #fff;
-    z-index: 10001;
-    position: absolute;
-    right: 44px;
-    max-width: 86px;
-    padding-right: 15px;
-}
+// .open #dropdownMenuLeasing {
+//     background: #000;
+//     color: #fff;
+//     z-index: 10001;
+//     position: absolute;
+//     right: 44px;
+//     max-width: 86px;
+//     padding-right: 15px;
+// }
 .leasing_dd {
     left: inherit;
     right: 3px;
