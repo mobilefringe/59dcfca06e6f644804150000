@@ -1,0 +1,115 @@
+<div class="header_banner dine_banner">
+    <div class="main_container">
+        <h4 class="header_banner_heading">Dining</h4>
+    </div>
+</div>
+<div class="main_container mobile_padding">
+    <div class="visible_phone position_relative">
+        <a class="mobile_header" href="/map">Center Map</a>
+        <a class="mobile_header" href="#" id="cat_dd2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+            Select Category <i class="fa fa-chevron-down visible_phone pull-right"></i>
+        </a>
+        <ul id="category_container2" class="dropdown-menu" aria-labelledby="cat_dd2">
+            <li href="#" class="show_all_stores">All</li>
+            <li class="show_cat_stores" data-id="4082">Restaurants</li>
+            <li class="show_cat_stores" data-id="4083">Dessert</li>
+            <li class="show_cat_stores" data-id="4084">Quick Bites</li>
+        </ul>
+    </div>
+    <div class="store_nav hidden_phone">
+        <div class="row">
+            <div class="col-md-3">
+                <a class="active_store_nav" href="/dine">DINE</a>
+            </div>
+            <div class="col-md-3">
+                <a href="/map">CENTER MAP</a>
+            </div>
+            <div class="col-md-4">
+                <span>Sort By: </span>
+                <a href="#" class="show_all_stores">ALPHABETICAL</a>
+            </div>
+            <div class="col-md-2">
+                <a href="#" id="cat_dd" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    CATEGORIES
+                    <img src="//codecloud.cdn.speedyrails.net/sites/57f503036e6f6454f2010000/image/png/1463153622000/chevron_down.png" class="category_icon" alt="">
+                </a>
+                <ul id="category_container" class="dropdown-menu" aria-labelledby="cat_dd">
+                    <li href="#" class="show_all_stores">All</li>
+                    <li class="show_cat_stores" data-id="4082">Restaurants</li>
+                    <li class="show_cat_stores" data-id="4083">Dessert</li>
+                    <li class="show_cat_stores" data-id="4084">Quick Bites</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="row content_container">
+        <div class="col-md-12">
+            <span class="store_initial hidden_now" id="cat_name"></span>
+        </div>
+        <div id="store_list_container" class="col-md-6">
+            <script id="store_list_template" type="x-tmpl-mustache/text">
+                <span style="{{show}}" class="store_initial open_stores" data-initial="{{data_initial}}">
+                    {{initial}}
+                    <i class="fa fa-chevron-down visible_phone pull-right"></i>
+                </span>
+                <div class="row cats_row open_{{data_initial}}" data-cat="{{cat_list}}">
+                    <div class="col-md-12">
+                        <p class="store_list_name"><a href="/stores/{{slug}}">{{name}}</a></p>
+                    </div>
+                </div>
+            </script>
+        </div>
+        <div id="store_list_container2" class="col-md-6">
+            <script id="store_list_template2" type="x-tmpl-mustache/text">
+                <span style="{{show}}" class="store_initial open_stores" data-initial="{{data_initial}}">
+                    {{initial}}
+                    <i class="fa fa-chevron-down visible_phone pull-right"></i>
+                </span>
+                <div class="row cats_row open_{{data_initial}}" data-cat="{{cat_list}}">
+                    <div class="col-md-12">
+                        <p class="store_list_name"><a href="/stores/{{slug}}">{{name}}</a></p>
+                    </div>
+                </div>
+            </script>
+        </div>
+    </div>
+</div>
+
+<script id="category_template" type="x-tmpl-mustache/text">
+    <li class="show_cat_stores" data-id="{{id}}">{{name}}</li>    
+</script>
+
+<script>
+    $(document).ready(function(e){
+        init(e);
+        loadMallDataCached(renderPage);
+        show_cat_stores();
+    })
+    
+    function renderPage(){
+        var stores = [];
+        var s1 = getStoresListByCategoryID(679)
+        var s2 = getStoresListByCategoryID(671)
+        // var s3 = getStoresListByCategoryID(4084)
+       
+        stores = stores.concat(s1)
+        stores = stores.concat(s2)
+        // stores = stores.concat(s3)
+        
+        var newarr = [];
+        var unique = {};
+        $.each(stores, function(i,v){
+            if (!unique[v.slug]) {
+                newarr.push(v);
+                unique[v.slug] = v;
+            }
+        })
+        newarr.sortBy(function(o){ return o.name })
+        renderStoreList('#store_list_container','#store_list_template', newarr, "stores", "A", "M");
+        renderStoreList('#store_list_container2','#store_list_template2', newarr, "stores","M", "Z" );
+        // var categories = getStoreCategories();
+        // renderGeneral('#category_container, #category_container2', '#category_template', categories);
+        show_content();
+        show_cat_stores();
+    }
+</script>
