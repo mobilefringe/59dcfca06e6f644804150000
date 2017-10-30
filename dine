@@ -106,7 +106,7 @@
         })
         newarr.sortBy(function(o){ return o.name })
         renderStoreList('#store_list_container','#store_list_template', newarr, "stores", "A", "M");
-        renderStoreList('#store_list_container2','#store_list_template2', newarr, "stores","M", "Z" );
+        renderStoreList('#store_list_container2','#store_list_template2', newarr, "stores","N", "Z" );
         // var categories = getStoreCategories();
         // renderGeneral('#category_container, #category_container2', '#category_template', categories);
         show_content();
