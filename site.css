@@ -77,6 +77,9 @@ $animation_color: black;
 .hours_banner{
     background-image: url(//codecloud.cdn.speedyrails.net/sites/59dcfca06e6f644804150000/image/jpeg/1509128013000/InsidePgBanner-1920x150.jpg);
 }
+#stores_container {
+    max-height: 351px;
+}
 .day, .time {
     display: inline-block;
     font-family: Avenir-Book;
