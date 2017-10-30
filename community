@@ -44,13 +44,15 @@
                                 <input name="address" id="address" class="form-control" type="text"  />
                             </div>
                             <div class="col-md-12">
-                                <div class="col-md-6">
-                                    <label for="city">Town/City</label>
-                                    <input name="city" id="city" class="form-control" type="text"  />
-                                </div>
-                                <div class="col-md-6">
-                                    <label for="postal">Postal Code</label>
-                                    <input name="postal" id="postal" class="form-control" type="text"  />
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label for="city">Town/City</label>
+                                        <input name="city" id="city" class="form-control" type="text"  />
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="postal">Postal Code</label>
+                                        <input name="postal" id="postal" class="form-control" type="text"  />
+                                    </div>
                                 </div>
                             </div>
                         </div>
