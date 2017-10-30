@@ -60,19 +60,23 @@
                 </div>
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="col-sm-6 col-md-6 padding-left-none">
-                            <label for="email">Email Address</label>
-                            <input name="email" id="email" class="form-control" type="email"  />
-                        </div>
-                        <div class="col-sm-6 col-md-6 padding-right-none">
-                            <div class="col-sm-12 col-md-12 padding-side-none">
-                                <div class="col-sm-6 col-md-6 padding-left-none">
-                                    <label for="phone">Telephone Number</label>
-                                    <input name="phone" id="phone" class="form-control" type="text"  />
-                                </div>
-                                <div class="col-sm-6 col-md-6 padding-right-none">
-                                    <label for="fax">Fax Number</label>
-                                    <input name="fax" id="fax" class="form-control" type="text"/>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label for="email">Email Address</label>
+                                <input name="email" id="email" class="form-control" type="email"  />
+                            </div>
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-12 padding-side-none">
+                                        <div class="col-sm-6 col-md-6 padding-left-none">
+                                            <label for="phone">Telephone Number</label>
+                                            <input name="phone" id="phone" class="form-control" type="text"  />
+                                        </div>
+                                        <div class="col-sm-6 col-md-6 padding-right-none">
+                                            <label for="fax">Fax Number</label>
+                                            <input name="fax" id="fax" class="form-control" type="text"/>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
