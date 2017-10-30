@@ -122,24 +122,52 @@
                     <a href="/stores">Directory</a>
                     <a href="/dine">Dine</a>
                     <a href="/events-and-promotions">Events & Promotions</a>
+                    <!--<div class="dropdown">-->
+                    <!--    <a href="#" type="button" id="dropdownMenuLeasing" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Leasing</a>-->
+                    <!--    <ul class="dropdown-menu leasing_dd" aria-labelledby="dropdownMenuLeasing">-->
+                    <!--        <li><a href="/leasing">Leasing</a></li>-->
+                    <!--        <li><a href="/photos">Photos</a></li>-->
+                    <!--    </ul>-->
+                    <!--</div>-->
+                    
                     <div class="dropdown">
-                        <a href="#" type="button" id="dropdownMenuLeasing" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Leasing</a>
-                        <ul class="dropdown-menu leasing_dd" aria-labelledby="dropdownMenuLeasing">
-                            <li><a href="/leasing">Leasing</a></li>
-                            <li><a href="/photos">Photos</a></li>
-                        </ul>
+                        <a class="btn btn-secondary dropdown-toggle" href="#" id="dropdownMenuLeasing" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Leasing
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLeasing">
+                            <a class="dropdown-item" href="/leasing">Leasing</a>
+                            <a class="dropdown-item" href="/photos">Photos</a>
+                        </div>
                     </div>
+
+                    <!--<div class="dropdown">-->
+                    <!--    <a href="#" type="button" id="dropdownMenuCenterInfo" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">CENTRE INFORMATION</a>-->
+                    <!--    <ul class="dropdown-menu center_info_dd" aria-labelledby="dropdownMenuCenterInfo">-->
+                    <!--        <li><a href="/contact_us">Contact Us</a></li>-->
+                    <!--        <li><a href="/location">Find Us</a></li>-->
+                    <!--        <li><a href="/about_us">About Us</a></li>-->
+                    <!--        <li><a href="/jobs">Jobs</a></li>-->
+                    <!--        <li><a href="/hours">Shopping Hours</a></li>-->
+                    <!--        <li><a href="/community">Community</a></li>-->
+                    <!--    </ul>-->
+                    <!--</div>-->
+                    
                     <div class="dropdown">
-                        <a href="#" type="button" id="dropdownMenuCenterInfo" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">CENTRE INFORMATION</a>
-                        <ul class="dropdown-menu center_info_dd" aria-labelledby="dropdownMenuCenterInfo">
-                            <li><a href="/contact_us">Contact Us</a></li>
-                            <li><a href="/location">Find Us</a></li>
-                            <li><a href="/about_us">About Us</a></li>
-                            <li><a href="/jobs">Jobs</a></li>
-                            <li><a href="/hours">Shopping Hours</a></li>
-                            <li><a href="/community">Community</a></li>
-                        </ul>
+                        <a class="btn btn-secondary dropdown-toggle" href="#" id="dropdownMenuContact" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Centre Information
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuContact">
+                            <a class="dropdown-item" href="/leasing">Leasing</a>
+                            <a class="dropdown-item" href="/photos">Photos</a>
+                            <a class="dropdown-item" href="/contact_us">Contact Us</a>
+                            <a class="dropdown-item" href="/location">Find Us</a>
+                            <a class="dropdown-item" href="/about_us">About Us</a>
+                            <a class="dropdown-item" href="/jobs">Jobs</a>
+                            <a class="dropdown-item" href="/hours">Shopping Hours</a>
+                            <a class="dropdown-item" href="/community">Community</a>
+                        </div>
                     </div>
+                    
                     <div class="clearfix"></div>
                 </div>
             </div>
