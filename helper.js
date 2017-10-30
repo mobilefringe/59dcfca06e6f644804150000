@@ -9,8 +9,13 @@ function init(e){
         e.preventDefault()
     })
     
-    $('#mobile_dd').click(function(e){
-        $('.mobile_menu_dd').slideToggle();
+    $('#mobile_leasing').click(function(e){
+        $('.mobile_menu_leasing').slideToggle();
+        e.preventDefault()
+    })
+    
+    $('#mobile_contact').click(function(e){
+        $('.mobile_menu_contact').slideToggle();
         e.preventDefault()
     })
     
