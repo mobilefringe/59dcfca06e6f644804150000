@@ -5,6 +5,42 @@ var site_json = {
     "social_feed" : "//longbeach.mallmaverick.com/api/v2/longbeach/social.json"
 }
 
+function show_content(){
+    $('.custom_backdrop').remove();
+    $('.yield').fadeIn();
+    $('.accordion_header').click(function(e){
+        $(this).find('i').toggleClass('fa-chevron-down fa-chevron-up');
+	});
+	
+	$('.open_stores').click(function(e){
+	    var initial = $(this).attr('data-initial')
+	    $('.open_' + initial).slideToggle();
+	    $(this).find('i').toggleClass('fa-chevron-down fa-chevron-up');
+	})
+	var hours = getPropertyRegularHours();
+	var all_hours = []
+
+    $.each(hours, function(i, v){
+        if ((v.day_of_week == 1 || v.day_of_week == 0 || v.day_of_week == 6) && (v.is_holiday != true )){
+            switch(v.day_of_week) {
+                case 0:
+                    v.day = "Sunday";
+                    break;
+                case 1:
+                    v.day = "Monday to Friday";
+                    break;
+                case 6:
+                    v.day = "Saturday";
+                    break;
+            }
+            all_hours.push(v)
+        }
+    })
+    all_hours = all_hours.sortBy(function(o){ return o.day })
+    renderHours('#hours_container', '#hours_template', all_hours)
+    
+    get_instagram(site_json.social_feed, 15, 'thumbnail', render_instagram)
+}
                 
 function renderHours(container, template, collection, type){
     var item_list = [];
