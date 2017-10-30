@@ -23,7 +23,7 @@
     <link href="//cdnjs.cloudflare.com/ajax/libs/flexslider/2.5.0/flexslider.css" rel="stylesheet">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/css/bootstrap-datepicker.min.css" rel="stylesheet" />
-    <link href="//580904016e6f64160b020000.codecloudapp.com/application.css" rel="stylesheet">
+    <link href="../application.css" rel="stylesheet">
     <link href="../site.css" rel="stylesheet">
     
     <!--Javascript-->
