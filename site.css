@@ -47,6 +47,8 @@ $animation_color: black;
     background: #000;
 }
 .dropdown-menu>li>a {
+    padding-left: 0;
+    padding-right: 0;
     float: none;
     color: #FFF;
     text-align: center;
