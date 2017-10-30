@@ -1225,7 +1225,7 @@ body{
             text-decoration:none;
         }
     }
-    .mobile_menu_dd{
+    .mobile_menu_leasing, .mobile_menu_contact {
         background: $layout_color;
         a{
             color:#fff !important;
