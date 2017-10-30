@@ -38,7 +38,11 @@
                 <a class="banner_image_li" href="{{url}}"></a>
             </div>
         </li>
-
+        <li>
+            <div style="background-image:url(//codecloud.cdn.speedyrails.net/sites/59dcfca06e6f644804150000/image/jpeg/1509372194000/Banner3.jpg)" class="banner_image_div">
+                <a class="banner_image_li" href="{{url}}"></a>
+            </div>
+        </li>
     </ul>
 </div>
 <div class="main_container mobile_padding">
