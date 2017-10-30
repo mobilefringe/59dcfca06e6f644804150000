@@ -10,7 +10,7 @@
         </div>
         <div class="details_col_9">
 
-        required data-validation="required"
+            <h5>We value your feedback. Send us your comments or questions by completing the contact form below.</h5>
             <div id="send_contact_success" class="alert alert-success hidden_now" role="alert">
                 <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
                 <span class="sr-only">Success</span>
@@ -23,38 +23,38 @@
             </div>
             <form name="contact_form" id="contact_form" method="post">
                 <div class="row">
-                    <div class="col-sm-12">
-                        <h5>We value your feedback. Send us your comments or questions by completing the contact form below.</h5>
-                    </div>
                     <div class="col-sm-6">
                         <label for="name">Name</label>
-                        <input name="name" id="name" class="form-control" type="text" value="" required>
+                        <input name="name" id="name" class="form-control" type="text" value="" required data-validation="required">
                     </div>
                     <div class="col-sm-6">
                         <label for="email" >E-mail</label>
-                        <input name="email" id="email" class="form-control" type="text" value="" required>
+                        <input name="email" id="email" class="form-control" type="text" value="" required data-validation="required">
                     </div>
                 </div>
                 <br>
                 <div class="row">
                     <div class="col-sm-12">
                         <label for="subject">Subject</label>
-                        <input name="subject" id="subject" class="form-control" type="text" required>
+                        <input name="subject" id="subject" class="form-control" type="text" required data-validation="required">
                     </div>
                 </div>
                 <br>
                 <div class="row">
                     <div class="col-sm-12">
                         <label for="message">Message</label>
-                        <textarea name="message" id="message" rows="8" class="form-control" required></textarea>
+                        <textarea name="message" id="message" rows="8" class="form-control" required data-validation="required"></textarea>
                     </div>
+                </div>
+                <br>
+                <div class="row">
                     <div class="col-sm-12">
-                    <br>
                         <label for="enterVerify">Enter the following number below to proceed: <div id="verifyNum"></div></label><br>
                         <input type="hidden" value="701469" id="verifyNumHidden" name="verifyNumHidden" />
                         <input type="text" id="enterVerify" name="enterVerify" />
                     </div>
                 </div>
+                <br>
                 <div class="row">
                     <div class="col-sm-12 col-md-12">
                         <br/>
