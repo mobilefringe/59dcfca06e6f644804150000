@@ -151,7 +151,7 @@
                     <!--        <li><a href="/community">Community</a></li>-->
                     <!--    </ul>-->
                     <!--</div>-->
-                    
+                    <div class="btn-group dropdown">
                         <a class="btn btn-secondary dropdown-toggle" href="#" id="dropdownMenuContact" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Centre Information
                         </a>
