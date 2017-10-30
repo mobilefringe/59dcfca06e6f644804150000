@@ -23,20 +23,21 @@
                 <p class="promo_header right_column_header">Business Contact Info</p>
             
                 <div class="row">
-                    <div class="col-sm-6 col-md-6 padding-left-none">
+                    <div class="col-md-6">
                         <label for="legalName">Legal Name of Organization</label>
                         <input name="legalName" id="legalName" class="form-control" type="text" />
                     </div>
-                    <div class="col-sm-6 col-md-6 padding-right-none">
+                    <div class="col-md-6">
                         <label for="operatingName">Operating Name of Organization <span>(if different)</span></label>
                         <input name="operatingName" id="operatingName" class="form-control" type="text"   />
                     </div>
-                    
-                    <div class="col-sm-6 col-md-6 padding-left-none">
+                </div>
+                <div class="row">
+                    <div class="col-md-6 ">
                         <label for="descOrg">Description of Organization</label>
                         <textarea name="descOrg" id="descOrg" class="form-control" rows="5" ></textarea>
                     </div>
-                    <div class="col-sm-6 col-md-6 padding-right-none">
+                    <div class="col-md-6">
                         <div class="col-sm-12 col-md-12 padding-side-none">
                             <label for="address">Street Address</label>
                             <input name="address" id="address" class="form-control" type="text"  />
@@ -52,7 +53,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-12 padding-side-none">
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
                         <div class="col-sm-6 col-md-6 padding-left-none">
                             <label for="email">Email Address</label>
                             <input name="email" id="email" class="form-control" type="email"  />
