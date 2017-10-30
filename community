@@ -27,6 +27,7 @@
                         <label for="legalName">Legal Name of Organization</label>
                         <input name="legalName" id="legalName" class="form-control" type="text" />
                     </div>
+                    <br class="visible_phone">
                     <div class="col-md-6">
                         <label for="operatingName">Operating Name of Organization <span>(if different)</span></label>
                         <input name="operatingName" id="operatingName" class="form-control" type="text"   />
@@ -38,6 +39,7 @@
                         <label for="descOrg">Description of Organization</label>
                         <textarea name="descOrg" id="descOrg" class="form-control" rows="5" ></textarea>
                     </div>
+                    <br class="visible_phone">
                     <div class="col-md-6">
                         <div class="row">
                             <div class="col-md-12">
@@ -53,6 +55,7 @@
                                         <label for="city">Town/City</label>
                                         <input name="city" id="city" class="form-control" type="text"  />
                                     </div>
+                                    <br class="visible_phone">
                                     <div class="col-md-6">
                                         <label for="postal">Postal Code</label>
                                         <input name="postal" id="postal" class="form-control" type="text"  />
