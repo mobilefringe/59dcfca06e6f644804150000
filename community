@@ -31,6 +31,70 @@
         }); 
         
         show_content();
+        
+        $.fn.datepicker.defaults.format = "mm/dd/yyyy";
+        $('#fromDate').datepicker({
+            todayHighlight:true
+        });
+        $('#toDate').datepicker({});
+                
+        $('#community_form').submit(function(e) {
+            if ($('#legalName').val().length === 0){
+                $("html, body").animate({ scrollTop:  $("label[for='legalName']").offset().top }, 1000);
+                $('#legalName').focus();
+                return false;
+            } else if ($('#descOrg').val().length === 0){
+                $("html, body").animate({ scrollTop:  $("label[for='descOrg']").offset().top }, 1000);
+                $('#descOrg').focus();
+                return false;
+            } else if ($('#address').val().length === 0){
+                $("html, body").animate({ scrollTop:  $("label[for='address']").offset().top }, 1000);
+                $('#address').focus();
+                return false;
+            } else if ($('#city').val().length === 0){
+                $("html, body").animate({ scrollTop:  $("label[for='city']").offset().top }, 1000);
+                $('#city').focus();
+                return false;
+            } else if ($('#postal').val().length === 0){
+                $("html, body").animate({ scrollTop:  $("label[for='postal']").offset().top }, 1000);
+                $('#postal').focus();
+                return false;
+            } else if (!validateEmail()){
+                $("html, body").animate({ scrollTop:  $("label[for='email']").offset().top }, 1000);
+                $('#email').focus();
+                return false;
+            } else if ($('#phone').val().length === 0){
+                $("html, body").animate({ scrollTop:  $("label[for='phone']").offset().top }, 1000);
+                $('#phone').focus();
+                return false;
+            } else if ($('#contactName').val().length === 0){
+                $("html, body").animate({ scrollTop:  $("label[for='contactName']").offset().top }, 1000);
+                $('#contactName').focus();
+                return false;
+            } else if ($('#insurerName').val().length === 0){
+                $("html, body").animate({ scrollTop:  $("label[for='insurerName']").offset().top }, 1000);
+                $('#insurerName').focus();
+                return false;
+            } else if ($('#charitable').val().length === 0){
+                $("html, body").animate({ scrollTop:  $("label[for='charitable']").offset().top }, 1000);
+                $('#charitable').focus();
+                return false;
+            } else if ($('#fromDate').val().length === 0){
+                $("html, body").animate({ scrollTop:  $("label[for='fromDate']").offset().top }, 1000);
+                $('#fromDate').focus();
+                return false;
+            } else if ($('#toDate').val().length === 0){
+                $("html, body").animate({ scrollTop:  $("label[for='toDate']").offset().top }, 1000);
+                $('#toDate').focus();
+                return false;
+            } else if ($('#purpose').val().length === 0){
+                $("html, body").animate({ scrollTop:  $("label[for='purpose']").offset().top }, 1000);
+                $('#purpose').focus();
+                return false;
+            }
+            sendEmail();
+            return false;
+    	});
     }
     
     function validateEmail(){
