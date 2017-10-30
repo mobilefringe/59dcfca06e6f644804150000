@@ -33,6 +33,7 @@ $animation_color: black;
     border-right: 1px solid #FFF;
     background: #000;
     box-shadow: none;
+    color: #FFF;
 }
 .dropdown-menu {
     left: 50%;
