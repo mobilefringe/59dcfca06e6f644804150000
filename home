@@ -1,9 +1,9 @@
 <style>
     .flex-control-nav{
-    bottom:12px;
-    z-index:9;
-    display:none !important;
-}
+        bottom: 12px;
+        z-index: 9;
+        display: none !important;
+    }
 </style>
 
 <div class="popup_home hidden_now" id="popup_container">
@@ -64,14 +64,11 @@
     
     function renderPage(){
         var banners = getBanners();
-        var feature_items = getFeatureList();
-        var popup = getPopups()[0];
         renderBanner('#banner_template','#home_banner',banners);
+        var feature_items = getFeatureList();
         renderFeatureItems('#feature_container','#feature_template', feature_items);
-        $('.flexslider').flexslider({
-            animation: "fade",
-        });
-        show_content();
+        
+        var popup = getPopups()[0];
         if(popup != undefined && $.cookie("popup_viewed") != "true"){
             renderPopUp("#popup_container", "#popup_template", popup)
             $.cookie("popup_viewed", "true");
@@ -82,8 +79,11 @@
             $(".modal-backdrop").remove();
 	        $(".popup_home").remove();
         })
+
+        show_content();
+                
+        $('.flexslider').flexslider({
+            animation: "fade",
+        });
     }
-    
-    
-    
 </script>
