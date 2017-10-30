@@ -32,9 +32,11 @@ $animation_color: black;
     -webkit-transform: translate(-50%, 0%);
     -ms-transform: translate(-50%, 0%);
     transform: translate(-50%, 0%);
+    background: #000;
 }
 .dropdown-menu>li>a {
     float: none;
+    color: #FFF;
     text-align: center;
 }
 .leasing_dd {
