@@ -8,7 +8,12 @@ $animation_color: black;
 .newsletter_control:focus{
     border-color: $layout_color;
 }
-
+#category_container li {
+    cursor: pointer;
+    text-transform: uppercase;
+    margin: 5px 0;
+    color: white;
+}
 .view_more_btn, .colored_link, .colored_link a, #mm_page_content h1, .mobile_menu li a{
     color: $layout_color;
 }
