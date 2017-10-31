@@ -1,0 +1,38 @@
+<div class="header_banner events_banner">
+    <div class="main_container">
+        <h4 class="header_banner_heading">Events & Promotions</h4>
+    </div>
+</div>
+<div class="main_container mobile_padding">
+    <div class="details_row">
+        <div class="details_col_3 hidden_phone">
+            <a href="/events-and-promotions">
+            <img src="//codecloud.cdn.speedyrails.net/sites/59dcfca06e6f644804150000/image/jpeg/1509134612000/sideevents.jpg" /></a>
+        </div>
+        <div class="details_col_9" id="event_details_container">
+            <script id="event_details_template" type="x-tmpl-mustache/text">
+                <a href="/events-and-promotions" class="back_to_list"><i class="fa fa-chevron-left"></i> &nbsp;Back to list</a>
+                <img src="{{event_image_url_abs}}" class="details_image" style="{{promo_image}}" />
+                <p class="colored_link">{{name}}</p>
+                <h3 class="publish_date"><span class="promo_parent">{{store_name}} | </span>{{dates}}</h3>
+                <div class="details_desc">{{{rich_description}}}</div>
+            </script>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    $(document).ready(function(e){
+        init(e);
+        loadMallDataCached(renderPage);
+    })
+    
+    function renderPage(){
+        var pathArray = window.location.pathname.split( '/' );
+        var slug = pathArray[pathArray.length-1];
+        event_details = getEventDetailsBySlug(slug);
+        renderEventDetails('#event_details_container', '#event_details_template', event_details)
+        show_content();
+    }
+</script>
