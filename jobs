@@ -1,0 +1,71 @@
+<div class="header_banner jobs_banner">
+    <div class="main_container">
+        <h4 class="header_banner_heading">Jobs</h4>
+    </div>
+</div>
+<div class="main_container mobile_padding">
+    <div class="details_row">
+        <div class="details_col_3 hidden_phone">
+              <a href="/events-and-promotions">
+            <img src="//codecloud.cdn.speedyrails.net/sites/59dcfca06e6f644804150000/image/jpeg/1509134613000/SideImage-ContactUs-440x1220.jpg" />
+            </a>
+        </div>
+        <div class="details_col_9">
+            <h5 id="events_header" class="details_header accordion_header" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                Jobs
+                <i class="fa fa-chevron-up pull-right"></i>
+            </h5>
+            <div id="collapse1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading3">
+                <div class="store_desc" id="jobs_container">
+                    <div class="store_desc" id="no_jobs">
+                        Currently we have no Jobs, but check back soon!
+                        <hr class="promo_separator" />
+                    </div>
+                    <script id="jobs_template" type="x-tmpl-mustache/text">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p class="colored_link">{{name}}</p>
+                                <h3 class="publish_date"><a href="/stores/{{store_detail_btn}}"><span class="promo_parent">{{store_name}} |</a> </span><br class="visible_phone" />{{dates}}</h3>
+                                <div class="details_desc">{{description_short}}</div>
+                                <a href="/jobs/{{slug}}" class="read_more">Read More</a>
+                            </div>
+                        </div>
+                        <hr class="promo_separator" />
+                    </script>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    $(document).ready(function(e){
+        init(e);
+        loadMallDataCached(renderPage);
+    })
+    
+    function renderPage(){
+        var jobs = getJobsList().sortBy(function(o){ return o.start_date});
+        var published_jobs = [];
+        $.each( jobs , function( key, val ){
+            // today = new Date();
+            // webDate = new Date(val.show_on_web_date)
+            
+            today = moment();
+            webDate = moment(val.show_on_web_date);
+            if (today >= webDate) {
+                published_jobs.push(val)
+            } 
+        });
+        if (published_jobs.length > 0){
+            renderJobs("#jobs_container","#jobs_template", published_jobs);
+            $('#no_jobs').hide()
+        }
+        else {
+            $('#events_header').click();
+            $('#events_header').find('i').toggleClass('fa-chevron-down fa-chevron-up');
+        }
+        show_content();
+    }
+</script>
