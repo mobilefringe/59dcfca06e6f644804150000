@@ -114,6 +114,7 @@
     border: none;
     background: #000;
     color: #FFF;
+    text-transform: uppercase;
     cursor: pointer;
 }
 
