@@ -12,7 +12,7 @@
             <p class="side_link">
                 1 Eglinton Square Toronto, ON
             </p>
-            <a class="main_btn block animated_btn" href="https://www.google.com/maps/dir//Eglinton+Square,+1+Eglinton+Square,+Scarborough,+ON+M1L+2K1,+Canada/@43.723825,-79.299601,13z/data=!4m15!1m6!3m5!1s0x0:0x753b94b423a8fd85!2sEglinton+Square!8m2!3d43.7238246!4d-79.2996009!4m7!1m0!1m5!1m1!1s0x89d4cddce902da3b:0x753b94b423a8fd85!2m2!1d-79.2996009!2d43.7238246?hl=en-US" target="_blank" >Driving Direction</a>
+            <a class="main_btn block animated_btn" href="https://www.google.com/maps/dir//Eglinton+Square,+1+Eglinton+Square,+Scarborough,+ON+M1L+2K1,+Canada/@43.723825,-79.299601,13z/data=!4m15!1m6!3m5!1s0x0:0x753b94b423a8fd85!2sEglinton+Square!8m2!3d43.7238246!4d-79.2996009!4m7!1m0!1m5!1m1!1s0x89d4cddce902da3b:0x753b94b423a8fd85!2m2!1d-79.2996009!2d43.7238246?hl=en-US" target="_blank" >Driving Directions</a>
         </div>
         <div class="details_col_9" id="event_details_container">
             <div class="map_container">
