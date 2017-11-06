@@ -178,4 +178,28 @@
         // map.selectRegion(store_details.svgmap_region);
         drop_pin(store_details.svgmap_region, map);
     }
+    
+    function drop_pin(id, map){
+        var coords = map.get_coords(id);
+        var height = parseInt(coords["height"])
+        var width = parseInt(coords["width"])
+        var x_offset = (parseInt(width) / 2);
+        var y_offset = (parseInt(height) /2);
+        
+        map.setMarks([{ xy: [coords["x"] - 15 + x_offset, coords["y"] - 55 + y_offset],
+            attrs: {
+                src:  '//codecloud.cdn.speedyrails.net/sites/59dcfca06e6f644804150000/image/png/1509993079000/map_marker_4.png'     // image for marker
+                }
+            }
+        ])
+        // map.setViewBox(id);
+        map.selectRegion(id);
+        $('#btnZoomIn').click()
+        $('#btnZoomIn').click()
+        $('#btnZoomIn').click()
+        $('#btnZoomIn').click()
+        $('#btnZoomIn').click()
+        $('#btnZoomIn').click()
+        $('#btnZoomIn').click()
+    }
 </script>
