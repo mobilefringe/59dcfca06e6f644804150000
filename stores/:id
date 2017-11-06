@@ -202,9 +202,5 @@
         $('#btnZoomIn').click()
         $('#btnZoomIn').click()
         $('#btnZoomIn').click()
-        // $('#btnZoomIn').click()
-        // $('#btnZoomIn').click()
-        // $('#btnZoomIn').click()
-        // $('#btnZoomIn').click()
     }
 </script>
