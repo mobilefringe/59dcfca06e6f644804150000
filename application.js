@@ -35,11 +35,11 @@ function renderBanner(banner_template,home_banner,banners){
 function renderPopup(){
     var popup = getPopups()[0];
     if(popup != undefined){
-        if($.cookie("popup_viewed") != "true"){
-            $.cookie("popup_viewed", "true", { expires: 1 });
+        // if($.cookie("popup_viewed") != "true"){
+            // $.cookie("popup_viewed", "true", { expires: 1 });
             $('<div class="modal-backdrop custom_backdrop"></div>').appendTo(document.body);
             $('.custom_popup').show()
-        }
+        // }
         $('.close_popup, .custom_backdrop').click(function(){
             $(".modal-backdrop").remove();
 	        $(".custom_popup").remove();
