@@ -250,16 +250,16 @@ function drop_pin(id, map){
     ])
     map.setViewBox(id);
     map.selectRegion(id);
-    $('#btnZoomOut').click()
-    $('#btnZoomOut').click()
-    $('#btnZoomOut').click()
-    // $('#btnZoomIn').click()
-    // $('#btnZoomIn').click()
-    // $('#btnZoomIn').click()
-    // $('#btnZoomIn').click()
-    // $('#btnZoomIn').click()
-    // $('#btnZoomIn').click()
-    // $('#btnZoomIn').click()
+    // $('#btnZoomOut').click()
+    // $('#btnZoomOut').click()
+    // $('#btnZoomOut').click()
+    $('#btnZoomIn').click()
+    $('#btnZoomIn').click()
+    $('#btnZoomIn').click()
+    $('#btnZoomIn').click()
+    $('#btnZoomIn').click()
+    $('#btnZoomIn').click()
+    $('#btnZoomIn').click()
 }
 
 function load_map(reg, store_details, h, w){
