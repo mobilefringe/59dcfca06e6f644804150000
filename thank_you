@@ -11,11 +11,14 @@
             </a>
         </div>
         <div class="details_col_9">
-            <div id="mm_page_content" class="details_desc"></div>
+            <div class="details_desc">
+                Your subscription has been confirmed. You've been added to our list and will hear from us soon.
+                    <br>
+                    Click <a href="/home" alt="home">here</a> to return to the site.
+            </div>
         </div>
     </div>
 </div>
-
 
 <script>
     $(document).ready(function(e){
