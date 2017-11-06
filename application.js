@@ -34,6 +34,7 @@ function renderBanner(banner_template,home_banner,banners){
 
 function renderPopup(){
     var popup = getPopups()[0];
+    console.log(popup)
     if(popup != undefined){
         // if($.cookie("popup_viewed") != "true"){
             // $.cookie("popup_viewed", "true", { expires: 1 });
