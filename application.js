@@ -37,7 +37,7 @@ function renderPopUp(){
     if(popup != null){
         // if($.cookie("popup_viewed") != "true"){
             // $.cookie("popup_viewed", "true", { expires: 1 });
-            $('<div class="modal-backdrop custom_backdrop"></div>').appendTo(document.body);
+            $('<div class="modal-backdrop"></div>').appendTo(document.body);
             $('.custom_popup').show()
         // }
         $('.close_popup, .custom_backdrop').click(function(){
