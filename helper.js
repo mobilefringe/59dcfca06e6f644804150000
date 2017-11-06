@@ -302,8 +302,6 @@ function init_map(reg, h, w){
         responsive:true,
         zoomLimit: [0,10],
     });
-    
-    
 }
 
 
