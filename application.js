@@ -32,19 +32,38 @@ function renderBanner(banner_template,home_banner,banners){
     $(home_banner).html(item_rendered.join(''));
 }
 
-function renderPopUp(container, template, collection){
-    var item_list = [];
-    var item_rendered = [];
-    var template_html = $(template).html();
-    Mustache.parse(template_html); 
-    if(collection.photo_link == "" || collection.photo_link === null){
-       collection.css = "style=cursor:default;";
-       collection.no_link = "return false";
+function renderPopup(){
+    var popup = getPopups()[0];
+    if(popup != undefined){
+        if($.cookie("popup_viewed") != "true"){
+            $.cookie("popup_viewed", "true", { expires: 1 });
+            $('<div class="modal-backdrop custom_backdrop"></div>').appendTo(document.body);
+            $('.custom_popup').show()
+        }
+        $('.close_popup, .custom_backdrop').click(function(){
+            $(".modal-backdrop").remove();
+	        $(".custom_popup").remove();
+        });
+        if(popup.contest.id != null){
+            $('.custom_img').attr('src', '//mallmaverick.cdn.speedyrails.net'+ popup.photo_url);
+            $('.custom_text').text(popup.description1);
+            $('.p_name').text(popup.name);
+        } else {
+            $('.popup_form_div').css('visibility', 'hidden');
+            $('.custom_popup').css('background-image', 'url(//mallmaverick.cdn.speedyrails.net' + popup.photo_url + ')');
+        }
+        $('#form_popup').submit(function(){
+            $('#cm-name').val($('#FNAME').val() + " " + $('#LNAME').val());
+            if($('#popup_agree').is(':checked') == false){
+                alert("Please agree to receive emails.");
+                $('#popup_agree').focus();
+                return false;
+            }
+        });
+        $('.close_popup').click(function(){
+            $('.custom_popup').fadeOut();
+        });
     }
-    collection.image_url_abs = "//mallmaverick.cdn.speedyrails.net" + collection.photo_url
-    var rendered = Mustache.render(template_html,collection);
-    item_rendered.push(rendered);
-    $(container).html(item_rendered.join(''));
 }
 
 function renderFeatureItems(container, template, collection){
