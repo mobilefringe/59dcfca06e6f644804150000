@@ -250,6 +250,9 @@ function drop_pin(id, map){
     ])
     map.setViewBox(id);
     map.selectRegion(id);
+    $('#btnZoomOut').click()
+    $('#btnZoomOut').click()
+    $('#btnZoomOut').click()
     // $('#btnZoomIn').click()
     // $('#btnZoomIn').click()
     // $('#btnZoomIn').click()
