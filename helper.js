@@ -253,10 +253,10 @@ function drop_pin(id, map){
     $('#btnZoomIn').click()
     $('#btnZoomIn').click()
     $('#btnZoomIn').click()
-    $('#btnZoomIn').click()
-    $('#btnZoomIn').click()
-    $('#btnZoomIn').click()
-    $('#btnZoomIn').click()
+    // $('#btnZoomIn').click()
+    // $('#btnZoomIn').click()
+    // $('#btnZoomIn').click()
+    // $('#btnZoomIn').click()
 }
 
 function load_map(reg, store_details, h, w){
