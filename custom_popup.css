@@ -34,7 +34,9 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+.custom_popup img {
+    max-width: 100%;
+}
 .close_popup{
     height: 33px;
     width: 56px;
