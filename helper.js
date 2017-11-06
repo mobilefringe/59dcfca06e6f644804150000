@@ -279,7 +279,7 @@ function load_map(reg, store_details, h, w){
         responsive:true,
         zoomLimit: [0,10]
     });
-    map.setViewBox(store_details.svgmap_region);
+    // map.setViewBox(store_details.svgmap_region);
     map.selectRegion(store_details.svgmap_region);
     drop_pin(store_details.svgmap_region, map);
     
