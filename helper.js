@@ -244,7 +244,7 @@ function drop_pin(id, map){
     
     map.setMarks([{ xy: [coords["x"] - 15 + x_offset, coords["y"] - 55 + y_offset],
         attrs: {
-            src:  '//codecloud.cdn.speedyrails.net/sites/570d369d6e6f643d60030000/image/png/1463000912000/pin2.png'     // image for marker
+            src:  '//codecloud.cdn.speedyrails.net/sites/59dcfca06e6f644804150000/image/png/1509993079000/map_marker_4.png'     // image for marker
             }
         }
     ])
