@@ -253,7 +253,7 @@ function drop_pin(id, map){
     $('#btnZoomIn').click()
     $('#btnZoomIn').click()
     $('#btnZoomIn').click()
-    // $('#btnZoomIn').click()
+    $('#btnZoomIn').click()
     // $('#btnZoomIn').click()
     // $('#btnZoomIn').click()
     // $('#btnZoomIn').click()
