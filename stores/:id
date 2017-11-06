@@ -192,7 +192,7 @@
                 }
             }
         ])
-        map.setViewBox();
+        map.setViewBox(id);
         map.selectRegion(id);
         $('#btnZoomIn').click()
         $('#btnZoomIn').click()
