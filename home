@@ -136,6 +136,8 @@
     })
     
     function renderPage(){
+        renderPopup();
+        
         var banners = getBanners();
         renderBanner('#banner_template','#home_banner',banners);
         var feature_items = getFeatureList();
