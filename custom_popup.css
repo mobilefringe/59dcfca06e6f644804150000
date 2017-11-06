@@ -1,7 +1,13 @@
-.custom_backdrop{
+.popup-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1040;
+    background-color: #000;
     opacity:0.5;
 }
-
 .custom_popup{
     display:none;
 }
@@ -10,11 +16,9 @@
     margin-right: -15px; 
     color: #8c8c8c;
 }
-
 .hide_desk{
     display:none;
 }
-
 .custom_popup{
     width: 675px;
     top: 100px;
