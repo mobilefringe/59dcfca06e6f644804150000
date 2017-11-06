@@ -196,7 +196,7 @@
         map.selectRegion(id);
         $('#btnZoomIn').click()
         $('#btnZoomIn').click()
-        // $('#btnZoomIn').click()
+        $('#btnZoomIn').click()
         // $('#btnZoomIn').click()
         // $('#btnZoomIn').click()
         // $('#btnZoomIn').click()
