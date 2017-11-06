@@ -156,10 +156,10 @@
                 regions[val.svgmap_region] = obj
             }
         });
-        load_map(regions, store_details, 2500, 2000);
+        load_store_map(regions, store_details, 2500, 2000);
     }
     
-    function load_map(reg, store_details, h, w){
+    function load_store_map(reg, store_details, h, w){
         this_region = {};
         this_region = store_details.svgmap_region;
         map = $('#mapsvg_store_detail').mapSvg({
