@@ -136,7 +136,7 @@
     })
     
     function renderPage(){
-        renderPopup();
+        renderPopUp();
         
         var banners = getBanners();
         renderBanner('#banner_template','#home_banner',banners);
