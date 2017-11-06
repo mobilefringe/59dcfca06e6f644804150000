@@ -11,6 +11,7 @@
                     <img src="{{alt_store_front_url}}" style="{{show_main_image}}" class="details_image" />
                     <p class="colored_link" style="{{phone_show}}">Phone</p>
                     <a class="side_link" style="{{phone_show}}" href="tel:{{phone}}">{{phone}}</a>
+                    <a class="main_btn animated_btn" href="tel:{{phone}}" target="_blank" style="{{phone_show}}">{{phone}}</a>
                     <a class="main_btn animated_btn" href="https://{{website}}" target="_blank" style="{{show}}">Visit Website</a>
                 </div>
                 <div class="details_col_9">
