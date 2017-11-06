@@ -66,14 +66,6 @@
 </head>
 
 <body>
-    <div id='woobox-root'></div>
-    <script>(function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "//woobox.com/js/plugins/woo.js";
-    fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'woobox-sdk'));</script>
     <header class="main_container main_nav">
         <div class="position_relative">
             <img src="//codecloud.cdn.speedyrails.net/sites/57f503036e6f6454f2010000/image/png/1463501219000/open_menu.png" class="open_menu visible_phone" alt="open menu">
