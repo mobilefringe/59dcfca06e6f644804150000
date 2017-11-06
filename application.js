@@ -32,7 +32,7 @@ function renderBanner(banner_template,home_banner,banners){
     $(home_banner).html(item_rendered.join(''));
 }
 
-function renderPopup(){
+function renderPopUp(){
     var popup = getPopups()[0];
     console.log(popup)
     if(popup != null){
