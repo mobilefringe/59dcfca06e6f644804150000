@@ -63,8 +63,8 @@
             map.marksHide();
             value = value.split('/')
             if (value[0] != null){
-                // drop_pin(value[0], map);  
-                show_png_pin(value[0], map);
+                drop_pin(value[0], map);  
+                // show_png_pin(value[0], map);
             }
         }
     }
