@@ -72,7 +72,8 @@
             <ul class="mobile_menu visible_phone">
                 <li><a href="/stores">DIRECTORY</a></li>
                 <li><a href="/dine">DINE</a></li>
-                <li><a href="/events-and-promotions">EVENTS & PROMOTIONS</a></li>
+                <li><a href="/events">EVENTS</a></li>
+                <li><a href="/promotions">PROMOTIONS</a></li>
                 <li><a href="#" id="mobile_leasing">LEASING</a></li>
                 <li class="hidden_now mobile_menu_leasing"><a href="/leasing">Leasing</a></li>
                 <li class="hidden_now mobile_menu_leasing"><a href="/photos">Photos</a></li>
