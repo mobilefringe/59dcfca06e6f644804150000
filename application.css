@@ -814,9 +814,9 @@ body{
 }
 
 .details_image{
-    width:100%;
-    border: 1px solid #D8D8D8;
-    margin-bottom:20px;
+    margin-bottom: 20px;
+    width: 100%;
+    // border: 1px solid #D8D8D8;
 }
 
 .colored_link{
