@@ -169,7 +169,8 @@ function renderStoreDetails(container, template, collection){
     item_list.push(collection);
     $.each( item_list , function( key, val ) {
         if ((val.store_front_url).indexOf('missing.png') > -1 || val.store_front_url == null){
-            val.alt_store_front_url = site_json.default_image;
+            // val.alt_store_front_url = site_json.default_image;
+            val.show_main_image = "display: none;"
         } else {
             val.alt_store_front_url = getImageURL(val.store_front_url); 
         }
@@ -182,8 +183,7 @@ function renderStoreDetails(container, template, collection){
         
         if (val.phone != null && val.phone.length > 0){
             val.phone_show = "display:block";
-        }
-        else {
+        } else {
             val.phone_show = "display:none";
         }
         
@@ -202,11 +202,12 @@ function renderStoreDetails(container, template, collection){
             val.facebook_show = "display:none";
         }
         
-        if (val.unit != null && val.unit.length > 0){
-            val.address_show = "display:inline-block";
-        } else {
-            val.address_show = "display:none";
-        }
+        // if (val.unit != null && val.unit.length > 0){
+        //     val.address_show = "display:inline-block";
+        // } else {
+        //     val.address_show = "display:none";
+        // }
+        
         val.map_x_coordinate = val.x_coordinate - 19;
         val.map_y_coordinate = val.y_coordinate - 58;
         var rendered = Mustache.render(template_html,val);
