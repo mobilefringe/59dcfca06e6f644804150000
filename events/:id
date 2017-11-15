@@ -6,12 +6,12 @@
 <div class="main_container mobile_padding">
     <div class="details_row">
         <div class="details_col_3 hidden_phone">
-            <a href="/events-and-promotions">
+            <a href="/events">
             <img src="//codecloud.cdn.speedyrails.net/sites/59dcfca06e6f644804150000/image/jpeg/1509134612000/sideevents.jpg" /></a>
         </div>
         <div class="details_col_9" id="event_details_container">
             <script id="event_details_template" type="x-tmpl-mustache/text">
-                <a href="/events-and-promotions" class="back_to_list"><i class="fa fa-chevron-left"></i> &nbsp;Back to list</a>
+                <a href="/events" class="back_to_list"><i class="fa fa-chevron-left"></i> &nbsp;Back to Events</a>
                 <img src="{{event_image_url_abs}}" class="details_image" style="{{promo_image}}" />
                 <p class="colored_link">{{name}}</p>
                 <h3 class="publish_date"><span class="promo_parent">{{store_name}} | </span>{{dates}}</h3>
