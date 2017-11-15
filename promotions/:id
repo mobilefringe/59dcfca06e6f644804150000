@@ -12,7 +12,7 @@
         </div>
         <div class="details_col_9" id="promotion_details_container">
             <script id="promotion_details_template" type="x-tmpl-mustache/text">
-                <a href="/events-and-promotions" class="back_to_list"><i class="fa fa-chevron-left"></i> &nbsp;Back to list</a>
+                <a href="/promotions" class="back_to_list"><i class="fa fa-chevron-left"></i> &nbsp;Back to Promotions</a>
                 <img src="{{promo_image_url_abs}}" class="details_image" style="{{promo_image}}" />
                 <p class="colored_link">{{name}}</p>
                 <h3 class="publish_date"><a href="/stores/{{store_detail_btn}}"><span class="promo_parent">{{store_name}} |</a> </span><br class="visible_phone" />{{dates}}</h3>
