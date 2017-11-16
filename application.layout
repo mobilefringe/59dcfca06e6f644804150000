@@ -61,7 +61,7 @@
     
     <!-- Site data -->
     <script>
-        setEndPoint('http://stc.mallmaverickdevelopment.com/api/v4/stc/all.json');
+        setEndPoint('//eglinton.mallmaverick.com/api/v4/eglinton/all.json');
     </script>
 </head>
 
