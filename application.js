@@ -40,7 +40,7 @@ function renderPopUp(){
             $('<div class="popup-backdrop"></div>').appendTo(document.body);
             $('.custom_popup').show()
         }
-        $('.close_popup, .custom_backdrop').click(function(){
+        $('.close_popup, .popup-backdrop').click(function(){
             $(".popup-backdrop").remove();
 	        $(".custom_popup").remove();
         });
