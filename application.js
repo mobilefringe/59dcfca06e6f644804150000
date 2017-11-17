@@ -37,7 +37,7 @@ function renderPopUp(){
     if(popup != null){
         if($.cookie("popup_viewed") != "true"){
             $.cookie("popup_viewed", "true", { expires: 1 });
-            $('<div class="popup-backdrop"></div>').appendTo(document.body);
+            $('<div class="modal-backdrop"></div>').appendTo(document.body);
             $('.custom_popup').show()
         }
         $('.close_popup, .popup-backdrop').click(function(){
@@ -64,7 +64,7 @@ function renderPopUp(){
             $('.custom_popup').fadeOut();
             $(".popup-backdrop").remove();
         });
-        $('.popup-backdrop').click(function(){
+        $('.modal-backdrop').click(function(){
             $('.custom_popup').fadeOut();
             $(".popup-backdrop").remove();
         });
