@@ -62,6 +62,7 @@ function renderPopUp(){
         });
         $('.close_popup').click(function(){
             $('.custom_popup').fadeOut();
+            $(".popup-backdrop").remove();
         });
     }
 }
