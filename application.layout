@@ -115,8 +115,8 @@
                 <div class="top_menu">
                     <a href="/stores">Directory</a>
                     <!--<a href="/dine">Dine</a>-->
-                    <a href="/events">Events</a>
                     <a href="/promotions">Promotions</a>
+                    <a href="/events">Events</a>
                     <div class="btn-group dropdown">
                         <a class="btn btn-secondary dropdown-toggle" href="#" id="dropdownMenuLeasing" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Leasing
