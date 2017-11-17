@@ -41,7 +41,7 @@ function renderPopUp(){
             $('.custom_popup').show()
         }
         $('.close_popup, .custom_backdrop').click(function(){
-            $(".modal-backdrop").remove();
+            $(".popup-backdrop").remove();
 	        $(".custom_popup").remove();
         });
         if(popup.contest.id != null){
