@@ -71,17 +71,17 @@
 <div class="flexslider">
     <ul class="slides">
         <li>
-            <div style="background-image:url(//codecloud.cdn.speedyrails.net/sites/59dcfca06e6f644804150000/image/jpeg/1509372193000/Banner1.jpg)" class="banner_image_div">
+            <div style="background-image:url(//codecloud.cdn.speedyrails.net/sites/5a0e03dd6e6f6401f5110100/image/jpeg/1510864555000/HomPageBanner_WeMakeYourDay-Opt1a.jpg)" class="banner_image_div">
                 <a class="banner_image_li" href="{{url}}"></a>
             </div>
         </li>
         <li>
-            <div style="background-image:url(//codecloud.cdn.speedyrails.net/sites/59dcfca06e6f644804150000/image/jpeg/1509372193000/Banner2.jpg)" class="banner_image_div">
+            <div style="background-image:url(//codecloud.cdn.speedyrails.net/sites/5a0e03dd6e6f6401f5110100/image/jpeg/1510864556000/HomPageBanner_WeMakeYourDay-Opt1c.jpg)" class="banner_image_div">
                 <a class="banner_image_li" href="{{url}}"></a>
             </div>
         </li>
         <li>
-            <div style="background-image:url(//codecloud.cdn.speedyrails.net/sites/59dcfca06e6f644804150000/image/jpeg/1509372194000/Banner3.jpg)" class="banner_image_div">
+            <div style="background-image:url(//codecloud.cdn.speedyrails.net/sites/5a0e03dd6e6f6401f5110100/image/jpeg/1510864556000/HomPageBanner_WeMakeYourDay-Opt1b.jpg)" class="banner_image_div">
                 <a class="banner_image_li" href="{{url}}"></a>
             </div>
         </li>
@@ -108,15 +108,15 @@
             </a>
         </div>
         <div class="feature_col">
-            <a href="/dine">
-                <img src="//codecloud.cdn.speedyrails.net/sites/59dcfca06e6f644804150000/image/jpeg/1509382853000/dine.jpg" alt="Feature item" />
-                <p class="feature_title">Dine</p>
+            <a href="/promotions">
+                <img src="//codecloud.cdn.speedyrails.net/sites/5a0e03dd6e6f6401f5110100/image/jpeg/1510864555000/FeatureImage_Holiday_520x220px.jpg" alt="Feature item" />
+                <p class="feature_title">Promotions</p>
             </a>
         </div>
         <div class="feature_col">
-            <a href="/promotions">
+            <a href="/events">
                 <img src="//codecloud.cdn.speedyrails.net/sites/59dcfca06e6f644804150000/image/jpeg/1509382853000/Events_Promotions.jpg" alt="Feature item" />
-                <p class="feature_title">Promotions</p>
+                <p class="feature_title">Events</p>
             </a>
         </div>
     </div>
