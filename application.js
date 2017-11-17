@@ -64,6 +64,10 @@ function renderPopUp(){
             $('.custom_popup').fadeOut();
             $(".popup-backdrop").remove();
         });
+        $('.popup-backdrop').click(function(){
+            $('.custom_popup').fadeOut();
+            $(".popup-backdrop").remove();
+        });
     }
 }
 
