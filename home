@@ -131,6 +131,7 @@
         renderPopUp();
         
         var banners = getBanners();
+        console.log(banners)
         renderBanner('#banner_template','#home_banner',banners);
         var feature_items = getFeatureList();
         renderFeatureItems('#feature_container','#feature_template', feature_items);
