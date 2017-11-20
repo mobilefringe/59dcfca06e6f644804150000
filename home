@@ -80,28 +80,6 @@
         </script>
     </div>
 </div>
-<!--<div class="main_container mobile_padding">-->
-<!--    <div class="feature_row">-->
-<!--        <div class="feature_col">-->
-<!--            <a href="/stores">-->
-<!--                <img src="//codecloud.cdn.speedyrails.net/sites/59dcfca06e6f644804150000/image/jpeg/1509382853000/Directory.jpg" alt="Feature item" />-->
-<!--                <p class="feature_title">Directory</p>-->
-<!--            </a>-->
-<!--        </div>-->
-<!--        <div class="feature_col">-->
-<!--            <a href="/promotions">-->
-<!--                <img src="//codecloud.cdn.speedyrails.net/sites/5a0e03dd6e6f6401f5110100/image/jpeg/1510864555000/FeatureImage_Holiday_520x220px.jpg" alt="Feature item" />-->
-<!--                <p class="feature_title">Promotions</p>-->
-<!--            </a>-->
-<!--        </div>-->
-<!--        <div class="feature_col">-->
-<!--            <a href="/events">-->
-<!--                <img src="//codecloud.cdn.speedyrails.net/sites/59dcfca06e6f644804150000/image/jpeg/1509382853000/Events_Promotions.jpg" alt="Feature item" />-->
-<!--                <p class="feature_title">Events</p>-->
-<!--            </a>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</div>-->
 <script>
     $(document).ready(function(e){
         init(e);
