@@ -61,7 +61,7 @@
     
     <!-- Site data -->
     <script>
-        setEndPoint('//eglinton.mallmaverick.com/api/v4/eglinton/all.json');
+        setEndPoint('//twinpines.mallmaverick.com/api/v4/twinpines/all.json');
     </script>
 </head>
 
