@@ -28,6 +28,7 @@ $animation_color: black;
 @media only screen and (max-width: 768px) {
    .vestar_logo {
     height: 32px !important;
+    float: middle;
     margin-left: 20px;
 }
 }
