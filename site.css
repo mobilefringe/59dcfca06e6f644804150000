@@ -18,6 +18,13 @@ $animation_color: black;
     color: $layout_color;
 }
 
+
+.vestar_logo {
+    height: 45px;
+    float: right;
+    margin-left: 20px;
+}
+
 .animated_btn:before{
     background: $animation_color;
 }
