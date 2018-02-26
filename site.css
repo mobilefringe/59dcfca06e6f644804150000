@@ -17,6 +17,11 @@ $animation_color: black;
 .view_more_btn, .colored_link, .colored_link a, #mm_page_content h1, .mobile_menu li a{
     color: $layout_color;
 }
+.vestar_logo {
+    height: 45px;
+    float: right;
+    margin-left: 20px;
+}
 
 .animated_btn:before{
     background: $animation_color;
