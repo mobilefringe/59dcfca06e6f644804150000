@@ -25,6 +25,14 @@ $animation_color: black;
     margin-left: 20px;
 }
 
+@media only screen and (max-width: 768px) {
+   .vestar_logo {
+    height: 32px;
+    float: right;
+    margin-left: 20px;
+}
+}
+
 .animated_btn:before{
     background: $animation_color;
 }
