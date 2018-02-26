@@ -19,19 +19,7 @@ $animation_color: black;
 }
 
 
-.vestar_logo {
-    height: 45px;
-    float: right;
-    margin-left: 20px;
-}
 
-@media only screen and (max-width: 768px) {
-   .vestar_logo {
-    height: 32px !important;
-    float: middle;
-    margin-left: 20px;
-}
-}
 
 .animated_btn:before{
     background: $animation_color;
