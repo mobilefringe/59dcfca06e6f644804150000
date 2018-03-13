@@ -582,44 +582,15 @@ function renderHours(container, template, collection, type){
                     if (val.open_time == "0:00 AM"){
                         val.open_time = "12:00 AM";
                     }
-                     if (val.close_time == "0:00 AM"){
+                    if (val.close_time == "0:00 AM"){
                         val.close_time = "12:00 AM";
                     }
                     val.h = open_time.format("h:mm A") + " - " + close_time.format("h:mm A");
                 } else {
                     val.h = "Closed";
                 }
-                // if (val.h != "Closed"){
-                    item_list.push(val);
-                // }
-            }
-        });
-        collection = [];
-        collection = item_list;
-    }
-    
-    if (type == "closed_hours") {
-        $.each( collection , function( key, val ) {
-            if (!val.store_id && val.is_holiday == true) {
-                holiday = moment(val.holiday_date).tz(getPropertyTimeZone());
-                var weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-                val.formatted_date = holiday.format("dddd, MMM D, YYYY");
-                if (val.open_time && val.close_time && val.is_closed == false){
-                    var open_time = moment(val.open_time).tz(getPropertyTimeZone());
-                    var close_time = moment(val.close_time).tz(getPropertyTimeZone());   
-                    if (val.open_time == "0:00 AM"){
-                        val.open_time = "12:00 AM";
-                    }
-                     if (val.close_time == "0:00 AM"){
-                        val.close_time = "12:00 AM";
-                    }
-                    val.h = open_time.format("h:mm A") + " - " + close_time.format("h:mm A");
-                } else {
-                    val.h = "Closed";
-                }
-                if (val.h == "Closed"){
-                    item_list.push(val);
-                }
+
+                item_list.push(val);
             }
         });
         collection = [];
