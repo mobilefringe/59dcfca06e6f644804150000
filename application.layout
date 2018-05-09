@@ -150,7 +150,7 @@
         </div>
     </header>
     <section id="content" class="yield">
-    <h1 style="display: none">Westmount Shopping Centre</h1>
+        <h1 style="display: none">Eglinton Square</h1>
         <!--Pages that use this file as a layout will have their content replaced in the 'yield'-->
         {{yield}}
     </section>
