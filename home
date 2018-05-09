@@ -1,0 +1,104 @@
+<style>
+    .flex-control-nav{
+        bottom: 12px;
+        z-index: 9;
+        display: none !important;
+    }
+</style>
+<div class="custom_popup">
+    <div class="popup_form_div">
+        <h2 class="pop_up_header p_name"></h2>
+        <img class="text-left width_100 hide_desk custom_img" src="" />
+        <h3 class="text-right right_desc hide_desk custom_text">Members will be automatically entered into a monthly draw for a $50 gift card to Jack Astor's</h3>
+        <div class="custom_row">
+            <div class="col-md-6">
+                <section class="">
+                    <form id="form_popup" class="" action="//mobilefringe.createsend.com/t/d/s/yhudir/" method="POST">	
+                        <input type="hidden" value="Popup" name="cm-f-tdyudd" />
+                        <input type="hidden" value="" name="cm-name" id="cm-name" />
+                        <label for="FNAME" class="main_label"><span class="">First Name</span>
+                            <input id="FNAME" name="first_name" placeholder="" class="custom_field_control" required="required" type="text" value="">
+                        </label>
+                        <label for="LNAME" class="main_label"><span class="">Last Name</span>
+                            <input id="LNAME" name="last_name" placeholder="" class="custom_field_control" required="required" type="text" value="">
+                        </label>
+                        <label for="EMAIL" class="main_label"><span class="">Email Address</span>
+                            <input id="EMAIL" name="cm-yhudir-yhudir" placeholder="" class="custom_field_control" required="required" type="email" value="">	
+                        </label>
+                        <label for="PCODE" class="main_label"><span class="">Postal Code</span>
+					        <input id="PCODE" name="cm-f-tdyudh" placeholder="" class="custom_field_control" required="required" type="text" value="">
+                        </label>
+                        <label for="FMALEMALE" class="main_label radio_main"><span class="">Female/Male</span>
+                            <label for="FMALEMALE-1" class="radio_inside" required="required">
+                                <input type="radio" name="cm-f-tdyudi" id="FMALEMALE-1" checked="checked" value="Female">
+                                <span class="">Female</span>
+                            </label>
+                            <label for="FMALEMALE-2" class="radio_inside">
+                                <input type="radio" name="cm-f-tdyudi" id="FMALEMALE-2" value="Male">
+                                <span class="">Male</span>
+                            </label>
+                        </label>
+                        <label class="main_label">
+                            <input type="checkbox" id="popup_agree" />
+                            I agree to receive emails from Eglinton Square.
+                        </label>
+                        <button type="submit" class="popup_submit">Submit</button>	
+                    </form>	
+                </section>
+            </div>
+            <div class="col-md-6 hide_phone">
+                <img class="text-left width_100 custom_img" src="" />
+                <h2 class="text-right right_header p_name"></h2>
+                <h3 class="text-right right_desc custom_text">Members will be automatically entered into a monthly draw for a $50 gift card to Jack Astor's</h3>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <span class="close_popup">CLOSE</span>
+</div>
+<div class="flexslider">
+    <ul class="slides" id="home_banner">
+        <script id="banner_template" type="x-tmpl-mustache/text">
+            <li>
+                <div style="background-image:url({{image_url}})" class="banner_image_div">
+                    <a class="banner_image_li" href="{{url}}" {{css}} onclick="{{noLink}}" >
+                    <p style="display:none;"></p>
+                    </a>
+                </div>
+            </li>
+        </script>
+    </ul>
+</div>
+<div class="main_container mobile_padding">
+    <div class="feature_row" id="feature_container">
+        <script id="feature_template" type="x-tmpl-mustache/text">
+            <div class="feature_col">
+                <a href="{{url}}">
+                    <img src="{{image_url}}" alt="Feature item" />
+                    <p class="feature_title">{{name}}</p>
+                </a>
+            </div>
+        </script>
+    </div>
+</div>
+<script>
+    $(document).ready(function(e){
+        init(e);
+        loadMallDataCached(renderPage);
+    })
+    
+    function renderPage(){
+        renderPopUp();
+        
+        var banners = getBanners();
+        renderBanner('#banner_template','#home_banner',banners);
+        var feature_items = getFeatureList();
+        renderFeatureItems('#feature_container','#feature_template', feature_items);
+        
+        show_content();
+                
+        $('.flexslider').flexslider({
+            animation: "fade",
+        });
+    }
+</script>
