@@ -94,7 +94,7 @@
                 <div class="social_links">
                     <a href="//www.facebook.com/eglintonsquareshoppingcentre" target="_blank">
                         <span id="social_facebook"></span>
-                        <p class="display:none;"></p>
+                        <p class="display:none;">Facabook</p>
                     </a>
                      <a href="//www.instagram.com/eglintonsquare/" target="_blank">
                         <span id="social_insta"></span>
