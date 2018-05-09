@@ -287,7 +287,7 @@ function load_map(reg, store_details, h, w){
     map.selectRegion(store_details.svgmap_region);
     drop_pin(store_details.svgmap_region, map);
     $("#btnZoomIn").attr('alt', 'Zoom In');
-$("#btnZoomOut").attr('alt', 'Zoom Out');
+    $("#btnZoomOut").attr('alt', 'Zoom Out');
 
 }
 
