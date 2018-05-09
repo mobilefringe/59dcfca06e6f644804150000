@@ -74,7 +74,7 @@
         <script id="feature_template" type="x-tmpl-mustache/text">
             <div class="feature_col">
                 <a href="{{url}}">
-                    <img src="{{image_url}}" alt="Feature item" />
+                    <img src="{{image_url}}" alt="Click here to view {{name}}" />
                     <p class="feature_title">{{name}}</p>
                 </a>
             </div>
