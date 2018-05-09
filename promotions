@@ -9,10 +9,10 @@
             <img src="//codecloud.cdn.speedyrails.net/sites/59dcfca06e6f644804150000/image/jpeg/1509134612000/sideevents.jpg" alt=""/>
         </div>
         <div class="details_col_9">
-            <h5 id="promotions_header" class="details_header accordion_header" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="false" aria-controls="collapse3">
+            <h2 id="promotions_header" class="details_header accordion_header" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="false" aria-controls="collapse3">
                 Promotions
                 <i class="fa fa-chevron-up pull-right"></i>
-            </h5>
+            </h2>
             <div id="collapse3" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="promos_container">
                 <div class="store_desc" id="no_promotions">
                     Check back soon for future Promotions!
