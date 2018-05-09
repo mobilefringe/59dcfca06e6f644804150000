@@ -29,7 +29,7 @@
 					        <input id="PCODE" name="cm-f-tdyudh" placeholder="" class="custom_field_control" required="required" type="text" value="">
                         </label>
                         <label for="FMALEMALE" class="main_label radio_main"><span class="">Female/Male</span>
-                            <fieldset> <legend>Choose Male or Female</legend></fieldset>
+                            <fieldset>
                             <label for="FMALEMALE-1" class="radio_inside" required="required">
                                 <input type="radio" name="cm-f-tdyudi" id="FMALEMALE-1" checked="checked" value="Female">
                                 <span class="">Female</span>
@@ -38,6 +38,7 @@
                                 <input type="radio" name="cm-f-tdyudi" id="FMALEMALE-2" value="Male">
                                 <span class="">Male</span>
                             </label>
+                            <legend>Choose Male or Female</legend></fieldset>
                         </label>
                         <label class="main_label">
                             <input type="checkbox" id="popup_agree" />
