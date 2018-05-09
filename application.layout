@@ -98,11 +98,11 @@
                     </a>
                      <a href="//www.instagram.com/eglintonsquare/" target="_blank">
                         <span id="social_insta"></span>
-                        <p class="display:none;">Facebook</p>
+                        <p class="display:none;">Instagram</p>
                     </a>
                     <a href="//twitter.com/EglintonSquare" target="_blank">
                         <span id="social_twitter"></span>
-                        <p class="display:none;">Facebook</p>
+                        <p class="display:none;">Twitter</p>
                     </a>
                     <a href="//www.pinterest.ca/eglintonsquare/" target="_blank">
                         <span id="social_pinterest"></span>
