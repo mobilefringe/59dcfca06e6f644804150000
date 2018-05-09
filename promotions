@@ -22,7 +22,7 @@
                     <script id="promos_template" type="x-tmpl-mustache/text">
                         <div class="promo_row">
                             <div class="promo_col_3" style="{{promo_image}}">
-                                <img src="{{promo_image_url_abs}}" alt="Promotion" class="full_width" />
+                                <img src="{{promo_image_url_abs}}" alt="View {{name}}" class="full_width" />
                             </div>
                             <div class="promo_col_9" style="{{full_width}}">
                                 <p class="colored_link"><a href="/promotions/{{slug}}">{{name}}</a></p>
