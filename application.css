@@ -406,7 +406,11 @@ body{
         }
     }
 }
-
+.dropdown {
+    a{
+        
+    }
+}
 .main_footer{
     padding:20px;
     background: #F2F2F2;
