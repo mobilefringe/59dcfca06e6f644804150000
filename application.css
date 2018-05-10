@@ -407,9 +407,11 @@ body{
     }
 }
 .dropdown {
-    a{
-        
-    }
+    a:focus {
+  outline: thin dotted;
+  outline: 7px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
 }
 .main_footer{
     padding:20px;
