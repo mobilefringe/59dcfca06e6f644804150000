@@ -25,7 +25,7 @@
                                 <img src="{{promo_image_url_abs}}" alt="View {{name}}" class="full_width" />
                             </div>
                             <div class="promo_col_9" style="{{full_width}}">
-                                <h2 class="colored_link"><a href="/promotions/{{slug}}">{{name}}</a></h2>
+                                <h2 class="colored_link">{{name}}</h2>
                                 <h3 class="publish_date"><a href="/stores/{{store_detail_btn}}"><span class="promo_parent">{{store_name}} |</a> </span><br class="visible_phone" />{{dates}}</h3>
                                 <div class="details_desc">{{description_short}}</div>
                                 <a href="/promotions/{{slug}}" class="read_more" aria="{{name}}">View Promotion Details</a>
