@@ -1,6 +1,6 @@
 <div class="header_banner stores_banner" >
     <div class="main_container">
-        <h4 class="header_banner_heading">Hours</h4>
+        <h2 class="header_banner_heading">Hours</h2>
     </div>
 </div>
 <div class="main_container mobile_padding">
@@ -10,9 +10,9 @@
             <img src="//codecloud.cdn.speedyrails.net/sites/59dcfca06e6f644804150000/image/jpeg/1509134613000/SideImage-ContactUs-440x1220.jpg" alt="View Events and Promotions"/></a>
         </div>
         <div class="details_col_9">
-            <h5 id="events_header" class="details_header accordion_header">
+            <h2 id="events_header" class="details_header accordion_header">
                 Regular Hours
-            </h5>
+            </h2>
             <div id="reg_hours_container">
                 <script id="reg_hours_template" type="x-tmpl-mustache/text">
                     <div class="regular_hours">
@@ -22,9 +22,9 @@
                 </script>
             </div>
             <div class="margin_30"></div>
-            <h5 id="events_header" class="details_header accordion_header">
+            <h2 id="events_header" class="details_header accordion_header">
                 Holiday Hours
-            </h5>
+            </h2>
             <div id="holiday_hours_container">
                 <script id="holiday_hours_template" type="x-tmpl-mustache/text">
                     <div class="holiday_hours">
