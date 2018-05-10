@@ -22,7 +22,7 @@
                     <script id="events_template" type="x-tmpl-mustache/text">
                         <div class="promo_row">
                             <div class="promo_col_3" style="{{promo_image}}">
-                                <img src="{{event_image_url_abs}}" alt="Promotion" class="" />
+                                <img src="{{event_image_url_abs}}" alt="{{name}}" class="" />
                             </div>
                             <div class="promo_col_9" style="{{full_width}}">
                                 <p class="colored_link"><a href="/events/{{slug}}">{{name}}</a></p>
