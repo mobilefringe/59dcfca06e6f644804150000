@@ -11,10 +11,10 @@
             </a>
         </div>
         <div class="details_col_9">
-            <h5 id="events_header" class="details_header accordion_header" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="false" aria-controls="collapse1">
+            <h2 id="events_header" class="details_header accordion_header" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="false" aria-controls="collapse1">
                 Jobs
                 <i class="fa fa-chevron-up pull-right"></i>
-            </h5>
+            </h2>
             <div id="collapse1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading3">
                 <div class="store_desc" id="jobs_container">
                     <div class="store_desc" id="no_jobs">
@@ -24,7 +24,7 @@
                     <script id="jobs_template" type="x-tmpl-mustache/text">
                         <div class="row">
                             <div class="col-md-12">
-                                <p class="colored_link">{{name}}</p>
+                                <h2 class="colored_link">{{name}}</h2>
                                 <h3 class="publish_date"><a href="/stores/{{store_detail_btn}}"><span class="promo_parent">{{store_name}} |</a> </span><br class="visible_phone" />{{dates}}</h3>
                                 <div class="details_desc">{{description_short}}</div>
                                 <a href="/jobs/{{slug}}" class="read_more">Read More</a>
