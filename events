@@ -25,7 +25,7 @@
                                 <img src="{{event_image_url_abs}}" alt="{{name}}" class="" />
                             </div>
                             <div class="promo_col_9" style="{{full_width}}">
-                                <p class="colored_link"><a href="/events/{{slug}}">{{name}}</a></p>
+                                <h2 class="colored_link"><a href="/events/{{slug}}">{{name}}</a></h2>
                                 <h3 class="publish_date">{{dates}}</h3>
                                 <div class="details_desc">{{description_short}}</div>
                                 <a href="/events/{{slug}}" class="read_more" aria="{{name}}">View Event Details</a>
