@@ -10,9 +10,9 @@
             <img src="//codecloud.cdn.speedyrails.net/sites/59dcfca06e6f644804150000/image/jpeg/1509134613000/SideImage-ContactUs-440x1220.jpg" alt="View promotions and events"/></a>
         </div>
         <div class="details_col_9">
-            <h5 id="events_header" class="details_header accordion_header">
+            <h3 id="events_header" class="details_header accordion_header">
                 Leasing Photos
-            </h5>
+            </h3>
             <div class="row" id="portfolio_container">
                 <script id="portfolio_template" type="x-tmpl-mustache/text">
                     <div class="col-md-6 portfolio_item">
