@@ -1,6 +1,6 @@
 <div class="header_banner events_banner">
     <div class="main_container">
-        <h4 class="header_banner_heading">Events</h4>
+        <h2 class="header_banner_heading">Events</h2>
     </div>
 </div>
 <div class="main_container mobile_padding">
@@ -9,10 +9,10 @@
             <img src="//codecloud.cdn.speedyrails.net/sites/59dcfca06e6f644804150000/image/jpeg/1509134612000/sideevents.jpg" alt="Go back to Events" />
         </div>
         <div class="details_col_9">
-            <h5 id="events_header" class="details_header accordion_header" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="false" aria-controls="collapse1">
+            <h2 id="events_header" class="details_header accordion_header" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="false" aria-controls="collapse1">
                 Events
                 <i class="fa fa-chevron-up pull-right"></i>
-            </h5>
+            </h2>
             <div id="collapse1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="events_container">
                 <div class="store_desc" id="events_container">
                     <div class="store_desc" id="no_events">
