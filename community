@@ -1,0 +1,322 @@
+<div class="header_banner community_banner">
+    <div class="main_container">
+        <h2 class="header_banner_heading">Community</h2>
+    </div>
+</div>
+<div class="main_container mobile_padding">
+    <div class="row">
+        <!--<div class="details_col_3 hidden_phone">-->
+        <!--    <img id="side_image" src="//codecloud.cdn.speedyrails.net/sites/57f503036e6f6454f2010000/image/jpeg/undefined/lbtc_440x1200_side_events.jpg" />-->
+        <!--</div>-->
+        <div class="col-md-12">
+            <div id="mm_page_content" class="details_desc"></div>
+            <br>
+            <div id="send_contact_success" class="alert alert-success" role="alert" style="display:none">
+                <span class="sr-only">Success</span>
+                Thank you for contacting us. A member from our team will contact you shortly. 
+            </div>
+            <div id="send_contact_error" class="alert alert-danger" role="alert" style="display:none">
+                <span class="sr-only">Error:</span>
+                There was an error when trying to submit your request. Please ensure you have entered a valid email address and subject and try again.
+            </div>
+            <form name="community_form" id="community_form" method="post">
+                <h5 class="details_header accordion_header">Business Contact Info</h5>
+            
+                <div class="row">
+                    <div class="col-md-6">
+                        <label for="legalName">Legal Name of Organization</label>
+                        <input name="legalName" id="legalName" class="form-control" type="text" />
+                    </div>
+                    <br class="visible_phone">
+                    <div class="col-md-6">
+                        <label for="operatingName">Operating Name of Organization <span>(if different)</span></label>
+                        <input name="operatingName" id="operatingName" class="form-control" type="text"   />
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-6 ">
+                        <label for="descOrg">Description of Organization</label>
+                        <textarea name="descOrg" id="descOrg" class="form-control" rows="5" ></textarea>
+                    </div>
+                    <br class="visible_phone">
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <label for="address">Street Address</label>
+                                <input name="address" id="address" class="form-control" type="text"  />
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label for="city">Town/City</label>
+                                        <input name="city" id="city" class="form-control" type="text"  />
+                                    </div>
+                                    <br class="visible_phone">
+                                    <div class="col-md-6">
+                                        <label for="postal">Postal Code</label>
+                                        <input name="postal" id="postal" class="form-control" type="text"  />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label for="email">Email Address</label>
+                                <input name="email" id="email" class="form-control" type="email"  />
+                            </div>
+                            <br class="visible_phone">
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <label for="phone">Telephone Number</label>
+                                                <input name="phone" id="phone" class="form-control" type="text"  />
+                                            </div>
+                                            <br class="visible_phone">
+                                            <div class="col-md-6">
+                                                <label for="fax">Fax Number</label>
+                                                <input name="fax" id="fax" class="form-control" type="text"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                <br>
+                <h5 class="details_header accordion_header">Contact Info</h5>
+     
+                <div class="row">
+                    <div class="col-md-6">
+                        <label for="contactName">Authorized Contact Person</label>
+                        <input name="contactName" id="contactName" class="form-control" type="text" value  />
+                    </div>
+                    <br class="visible_phone">
+                    <div class="col-md-6">
+                        <label for="insurerName">Name of Insurer</label>
+                        <input name="insurerName" id="insurerName" class="form-control" type="text"   />
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-4">
+                        <label for="charitable">Charitable <span># (BN/Registration Number)</span></label>
+                        <input name="charitable" id="charitable" class="form-control" type="text" value  />
+                    </div>
+                    <br class="visible_phone">
+                    <div class="col-md-4">
+                        <label for="lottery">Lottery License <span># (If applicable)</span></label>
+                        <input name="lottery" id="lottery" class="form-control" type="text" value  />
+                    </div>
+                    <br class="visible_phone">
+                    <div class="col-md-4">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label for="fromDate">From Date</label>
+                                <input name="fromDate" id="fromDate" placeholder="mm/dd/yyyy" class="form-control" type="text" value  />
+                            </div>
+                            <br class="visible_phone">
+                            <div class="col-md-6">
+                                <label for="toDate">To Date</label>
+                                <input name="toDate" id="toDate" placeholder="mm/dd/yyyy" class="form-control" type="text" value  />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-12">
+                        <label for="purpose">Purpose for use of in-mall space</label>
+                        <textarea name="purpose" id="purpose" class="form-control" rows="5" ></textarea>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label for="anyother">Please specify any other requirements</label>
+                                <textarea name="anyother" id="anyother" class="form-control" rows="5" ></textarea>
+                            </div>
+                            <br class="visible_phone">
+                            <div class="col-md-6">
+                                <label for="attendance">Anticipated Attendance</label>
+                                <input name="attendance" id="attendance" class="form-control" type="text"  />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-12">
+                        <button class="btn btn-default community-btn main_btn" type="submit">Submit</button>
+                    </div>
+                </div>
+                <br>
+            </form>
+        </div>
+    </div>
+</div>
+<script>
+    $(document).ready(function(e){
+        init(e);
+        loadMallDataCached(renderPage);
+    })
+    
+    function renderPage(){
+        var prefix = get_prefix();
+        var pages_json = prefix + "/pages/eglinton-community.json"
+        $.getJSON(pages_json).done(function(data) {
+            $('#mm_page_content').html(data.body);
+        }).fail(function(jqXHR) {
+            if (jqXHR.status == 404) {
+                $("#404_msg").fadeIn("fast");
+            }
+        }); 
+        
+        show_content();
+        
+        $.fn.datepicker.defaults.format = "mm/dd/yyyy";
+        $('#fromDate').datepicker({
+            todayHighlight:true
+        });
+        $('#toDate').datepicker({});
+                
+        $('#community_form').submit(function(e) {
+            if ($('#legalName').val().length === 0){
+                $("html, body").animate({ scrollTop:  $("label[for='legalName']").offset().top }, 1000);
+                $('#legalName').focus();
+                return false;
+            } else if ($('#descOrg').val().length === 0){
+                $("html, body").animate({ scrollTop:  $("label[for='descOrg']").offset().top }, 1000);
+                $('#descOrg').focus();
+                return false;
+            } else if ($('#address').val().length === 0){
+                $("html, body").animate({ scrollTop:  $("label[for='address']").offset().top }, 1000);
+                $('#address').focus();
+                return false;
+            } else if ($('#city').val().length === 0){
+                $("html, body").animate({ scrollTop:  $("label[for='city']").offset().top }, 1000);
+                $('#city').focus();
+                return false;
+            } else if ($('#postal').val().length === 0){
+                $("html, body").animate({ scrollTop:  $("label[for='postal']").offset().top }, 1000);
+                $('#postal').focus();
+                return false;
+            } else if (!validateEmail()){
+                $("html, body").animate({ scrollTop:  $("label[for='email']").offset().top }, 1000);
+                $('#email').focus();
+                return false;
+            } else if ($('#phone').val().length === 0){
+                $("html, body").animate({ scrollTop:  $("label[for='phone']").offset().top }, 1000);
+                $('#phone').focus();
+                return false;
+            } else if ($('#contactName').val().length === 0){
+                $("html, body").animate({ scrollTop:  $("label[for='contactName']").offset().top }, 1000);
+                $('#contactName').focus();
+                return false;
+            } else if ($('#insurerName').val().length === 0){
+                $("html, body").animate({ scrollTop:  $("label[for='insurerName']").offset().top }, 1000);
+                $('#insurerName').focus();
+                return false;
+            } else if ($('#charitable').val().length === 0){
+                $("html, body").animate({ scrollTop:  $("label[for='charitable']").offset().top }, 1000);
+                $('#charitable').focus();
+                return false;
+            } else if ($('#fromDate').val().length === 0){
+                $("html, body").animate({ scrollTop:  $("label[for='fromDate']").offset().top }, 1000);
+                $('#fromDate').focus();
+                return false;
+            } else if ($('#toDate').val().length === 0){
+                $("html, body").animate({ scrollTop:  $("label[for='toDate']").offset().top }, 1000);
+                $('#toDate').focus();
+                return false;
+            } else if ($('#purpose').val().length === 0){
+                $("html, body").animate({ scrollTop:  $("label[for='purpose']").offset().top }, 1000);
+                $('#purpose').focus();
+                return false;
+            }
+            sendEmail();
+            return false;
+    	});
+    }
+    
+    function validateEmail(){
+        var $email = $('#email'); //change form to id or containment selector
+        var re = /[A-Z0-9._%+-]+@[A-Z0-9.-]+.[A-Z]{2,4}/igm;
+    
+        if ($email.val() == '' || !re.test($email.val())){
+            return false;
+        }
+        return true;
+    }
+    	
+	function sendEmail(){
+	    var operatingName = $('#operatingName').val();
+	    var fax =  $('#fax').val();
+	    var lottery = $('#lottery').val();
+
+	    if($('#operatingName').val().length === 0){
+	        operatingName = 'N/A';
+	    }
+	    
+	    if($('#fax').val().length === 0){
+	        fax = 'N/A';
+	    }
+	    
+	    if($('#lottery').val().length === 0){
+	        lottery = 'N/A';
+	    }
+
+        $.ajax({
+            url : "//mallmaverick.com/send_contact_email",
+            type: "POST",
+            data : { 
+                'send_to': "DNeely@Bentallkennedy.com,ngoverde@bentallkennedy.com", 
+                'subject': "Eglinton Square Community Rental Form Application", 
+                'body': {
+                    "Legal Name of Organization": $('#legalName').val(), 
+                    "Operating Name of Organization(if different)": operatingName, 
+                    "Description of Organization": $('#descOrg').val(), 
+                    "Street Address":$('#address').val(),
+                    "Town/City":$('#city').val(), 
+                    "Postal Code" : $('#postal').val(), 
+                    "Email Address":$('#email').val(), 
+                    "Telephone Number": $('#phone').val(), 
+                    "Fax Number": fax,
+                    "Authorized Contact Person":$('#contactName').val(),
+                    "Name of Insurer": $('#insurerName').val(),
+                    "Charitable # (BN/Registration Number)": $('#charitable').val(),
+                    "Lottery License # (If applicable)":  $('#lottery').val(),
+                    "From Date(mm/dd/yyyy)":  $('#fromDate').val(),
+                    "To Date(mm/dd/yyyy)":  $('#toDate').val(),
+                    "Purpose for use of in-mall space":  $('#purpose').val(),
+                    "Please specify any other requirements":  $('#anyother').val(),
+                    "Anticipated Attendance":  $('#attendance').val()
+                } 
+            },
+            success: function(data, textStatus, jqXHR) {
+                $('#send_contact_success').fadeIn();
+                $('#community_form').find("input, textarea, select").val("");
+              
+                $("select option[value=0]").attr("selected", true);
+                $("html, body").animate({ scrollTop:  $("#send_contact_success").offset().top }, 1000);
+            },
+            error: function (jqXHR, textStatus, errorThrown) {
+                $('#send_contact_error').fadeIn();
+                $("html, body").animate({ scrollTop:  $("#send_contact_error").offset().top }, 1000);
+            }
+        });
+	}
+</script>
