@@ -1,0 +1,43 @@
+<div class="header_banner stores_banner" >
+    <div class="main_container">
+        <h4 class="header_banner_heading">Photos</h4>
+    </div>
+</div>
+<div class="main_container mobile_padding">
+    <div class="details_row">
+        <div class="details_col_3 hidden_phone">
+            <a href="/events-and-promotions">
+            <img src="//codecloud.cdn.speedyrails.net/sites/59dcfca06e6f644804150000/image/jpeg/1509134613000/SideImage-ContactUs-440x1220.jpg" alt="View promotions and events"/></a>
+        </div>
+        <div class="details_col_9">
+            <h5 id="events_header" class="details_header accordion_header">
+                Leasing Photos
+            </h5>
+            <div class="row" id="portfolio_container">
+                <script id="portfolio_template" type="x-tmpl-mustache/text">
+                    <div class="col-md-6 portfolio_item">
+                        <a href="{{image_url}}" data-toggle="lightbox">
+                            <img alt="photo{{id}}" src="{{image_url}}">
+                        </a>
+                    </div> 
+               </script>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+        event.preventDefault();
+        $(this).ekkoLightbox();
+    });
+    $(document).ready(function(e){
+        init(e);
+        loadMallDataCached(renderPage);
+    });
+    function renderPage(){
+        var leasing_photos = getRepoDetailsByName("photos").images;
+        renderGeneral("#portfolio_container", "#portfolio_template", leasing_photos);
+
+        show_content();
+    }
+</script>
