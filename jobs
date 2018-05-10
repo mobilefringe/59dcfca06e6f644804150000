@@ -27,7 +27,7 @@
                                 <h2 class="colored_link">{{name}}</h2>
                                 <h3 class="publish_date"><a href="/stores/{{store_detail_btn}}"><span class="promo_parent">{{store_name}} |</a> </span><br class="visible_phone" />{{dates}}</h3>
                                 <div class="details_desc">{{description_short}}</div>
-                                <a href="/jobs/{{slug}}" class="read_more">View Job Details</a>
+                                <a href="/jobs/{{slug}}" class="read_more" aria="{{name}}">View Job Details</a>
                             </div>
                         </div>
                         <hr class="promo_separator" />
