@@ -1,0 +1,46 @@
+<div class="header_banner location_banner">
+    <div class="main_container">
+        <h2 class="header_banner_heading">Location</h2>
+    </div>
+</div>
+<div class="main_container mobile_padding">
+    <div class="details_row">
+        <div class="details_col_3">
+            <h3 class="colored_link" style="">Office Phone Number</h3>
+            <a class="side_link" href="tel:416-757-7770">416-757-7770</a>
+            <h3 class="colored_link" style="">Address</h3>
+            <p class="side_link">
+                1 Eglinton Square Toronto, ON
+            </p>
+            <a class="main_btn block animated_btn" href="https://www.google.com/maps/dir//Eglinton+Square,+1+Eglinton+Square,+Scarborough,+ON+M1L+2K1,+Canada/@43.723825,-79.299601,13z/data=!4m15!1m6!3m5!1s0x0:0x753b94b423a8fd85!2sEglinton+Square!8m2!3d43.7238246!4d-79.2996009!4m7!1m0!1m5!1m1!1s0x89d4cddce902da3b:0x753b94b423a8fd85!2m2!1d-79.2996009!2d43.7238246?hl=en-US" target="_blank" >Driving Directions</a>
+        </div>
+        <div class="details_col_9" id="event_details_container">
+            <div class="map_container">
+                <div class="map_overlay" onClick="style.pointerEvents='none'"></div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d46132.440039212735!2d-79.30440751855465!3d43.725561761751685!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x753b94b423a8fd85!2sEglinton+Square!5e0!3m2!1sen!2sus!4v1507831531256" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <div id="mm_page_content" class="details_desc"></div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    $(document).ready(function(e){
+        init(e);
+        loadMallDataCached(renderPage);
+    })
+    
+    function renderPage(){
+        prefix = get_prefix();
+        var pages_json = prefix+ "/pages/eglinton-directions.json"
+        $.getJSON(pages_json).done(function(data) {
+            $('#mm_page_content').html(data.body);
+        }).fail(function(jqXHR) {
+            if (jqXHR.status == 404) {
+                $("#404_msg").fadeIn("fast");
+            }
+        }); 
+        show_content();
+    }
+</script>
