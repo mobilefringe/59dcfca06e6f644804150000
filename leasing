@@ -6,7 +6,7 @@
 <div class="main_container mobile_padding">
     <div class="details_row">
         <div class="details_col_3 hidden_phone">
-            <img id="side_image" src="//codecloud.cdn.speedyrails.net/sites/59dcfca06e6f644804150000/image/jpeg/1509134613000/SideImage-ContactUs-440x1220.jpg" />
+            <img id="side_image" src="//codecloud.cdn.speedyrails.net/sites/59dcfca06e6f644804150000/image/jpeg/1509134613000/SideImage-ContactUs-440x1220.jpg" alt=""/>
         </div>
         <div class="details_col_9">
             <div id="mm_page_content" class="details_desc"></div>
