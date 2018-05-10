@@ -6,9 +6,7 @@
 <div class="main_container mobile_padding">
     <div class="details_row">
         <div class="details_col_3 hidden_phone">
-              <a href="/events-and-promotions">
-            <img src="//codecloud.cdn.speedyrails.net/sites/59dcfca06e6f644804150000/image/jpeg/1509134613000/SideImage-ContactUs-440x1220.jpg" alt="View Promotions and Events"/>
-            </a>
+            <img src="//codecloud.cdn.speedyrails.net/sites/59dcfca06e6f644804150000/image/jpeg/1509134613000/SideImage-ContactUs-440x1220.jpg" alt=""/>
         </div>
         <div class="details_col_9">
             <h2 id="events_header" class="details_header accordion_header" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="false" aria-controls="collapse1">
