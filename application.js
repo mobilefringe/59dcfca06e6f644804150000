@@ -52,14 +52,14 @@ function renderPopUp(){
             $('.popup_form_div').css('visibility', 'hidden');
             $('.custom_popup').css('background-image', 'url(//mallmaverick.cdn.speedyrails.net' + popup.photo_url + ')');
         }
-        $('#form_popup').submit(function(){
-            $('#cm-name').val($('#FNAME').val() + " " + $('#LNAME').val());
-            if($('#popup_agree').is(':checked') == false){
-                alert("Please agree to receive emails.");
-                $('#popup_agree').focus();
-                return false;
-            }
-        });
+        // $('#form_popup').submit(function(){
+        //     $('#cm-name').val($('#FNAME').val() + " " + $('#LNAME').val());
+        //     if($('#popup_agree').is(':checked') == false){
+        //         alert("Please agree to receive emails.");
+        //         $('#popup_agree').focus();
+        //         return false;
+        //     }
+        // });
         $('.close_popup').click(function(){
             $('.custom_popup').fadeOut();
             $(".popup-backdrop").remove();
