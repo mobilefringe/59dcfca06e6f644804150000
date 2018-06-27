@@ -21,27 +21,27 @@ function init(e){
         e.preventDefault()
     })
     
-    $('#newsletter_form').submit(function(e){
-        e.preventDefault();
-        if ($("#newsletter_agree").prop("checked") != true){
-            alert("Please agree to receive newsletters from " + site_json.name + "." );
-            $("#newsletter_agree").focus();
-            return false;
-        }
-        $.getJSON(
-            this.action + "?callback=?",
-            $(this).serialize(),
-            function (data) {
-                if (data.Status === 400) {
-                    alert("Please try again later.");
-                } else { // 200
-                    $("#success_subscribe").fadeIn()
-                    $('#success_subscribe').delay(2000).fadeOut();
-                    $('#newsletter_form').trigger('reset')
-                }
-            }
-        );
-    });
+    // $('#newsletter_form').submit(function(e){
+    //     e.preventDefault();
+    //     if ($("#newsletter_agree").prop("checked") != true){
+    //         alert("Please agree to receive newsletters from " + site_json.name + "." );
+    //         $("#newsletter_agree").focus();
+    //         return false;
+    //     }
+    //     $.getJSON(
+    //         this.action + "?callback=?",
+    //         $(this).serialize(),
+    //         function (data) {
+    //             if (data.Status === 400) {
+    //                 alert("Please try again later.");
+    //             } else { // 200
+    //                 $("#success_subscribe").fadeIn()
+    //                 $('#success_subscribe').delay(2000).fadeOut();
+    //                 $('#newsletter_form').trigger('reset')
+    //             }
+    //         }
+    //     );
+    // });
 }
 
 
