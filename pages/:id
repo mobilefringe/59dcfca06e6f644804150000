@@ -1,0 +1,46 @@
+<div class="header_banner" id="top_banner">
+    <div class="main_container">
+        <h4 class="header_banner_heading" id="mm_page_title"></h4>
+    </div>
+</div>
+<div class="main_container mobile_padding">
+    <div class="details_row">
+        <div class="details_col_3 hidden_phone">
+             <a href="/events-and-promotions">
+            <img id="side_image" src="//codecloud.cdn.speedyrails.net/sites/57f503036e6f6454f2010000/image/jpeg/undefined/lbtc_440x1200_side_events.jpg" />
+            </a>
+        </div>
+        <div class="details_col_9">
+            <div id="mm_page_content" class="details_desc"></div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    $(document).ready(function(e){
+        init(e);
+        loadMallDataCached(renderPage);
+    })
+    
+    function renderPage(){
+        var pathArray = window.location.pathname.split( '/' );
+        var slug = pathArray[pathArray.length-1];
+          if (slug == "longbeach-contact-us"){
+           $('#side_image').attr('src', "//codecloud.cdn.speedyrails.net/sites/57f503036e6f6454f2010000/image/jpeg/undefined/lbtc_440x1200_side_jobs.jpg")
+        }
+    
+        prefix = get_prefix();
+        $('#top_banner').addClass(slug)
+        var pages_json = prefix+"/pages/" + slug + ".json"
+        $.getJSON(pages_json).done(function(data) {
+            $('#mm_page_title').html(data.title);
+            $('#mm_page_content').html(data.body);
+        }).fail(function(jqXHR) {
+            if (jqXHR.status == 404) {
+                $("#404_msg").fadeIn("fast");
+            }
+        }); 
+        show_content();
+    }
+</script>
