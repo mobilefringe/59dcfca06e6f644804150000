@@ -210,8 +210,8 @@
             </p>
          <a href="//bentallkennedy.com/" target="_blank">
                 <img src="//codecloud.cdn.speedyrails.net/sites/5af3606b6e6f64457d440000/image/png/1519676753000/ProudlyManaged_V_dark_webopy.png" class="vestar_logo" alt="Proudly Managed by Bentall Kennedy"> </a>
-            <p class="footer_text">
-                Powered by <a href="//mallmaverick.com" target="_blank" aria="mobile powered by">Mall Maverick</a>
+            <!--<p class="footer_text">-->
+            <!--    Powered by <a href="//mallmaverick.com" target="_blank" aria="mobile powered by">Mall Maverick</a>-->
             </p>
         </div>
         <div class="row hidden_phone">
