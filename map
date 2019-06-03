@@ -41,7 +41,7 @@
                     obj["tooltip"] = "<div class='tooltip_div'><p class='tooltip_name text-center'>"+val.name+"</p></div>"
                 }
                 else{
-                    obj["tooltip"] = "<div class='tooltip_div'><img alt="" src='" + val.store_front_url_abs + "'><p class='tooltip_name text-center'>"+val.name+"</p></div>"
+                    obj["tooltip"] = "<div class='tooltip_div'><img src='" + val.store_front_url_abs + "'><p class='tooltip_name text-center'>"+val.name+"</p></div>"
                 }
                 obj["attr"] = {}
                 regions[val.svgmap_region] = obj
