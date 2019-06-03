@@ -26,7 +26,7 @@
                                 <img src="{{event_image_url_abs}}" alt="Promotion" class="" />
                             </div>
                             <div class="promo_col_9" style="{{full_width}}">
-                                <p class="colored_link"><a href="/events/{{slug}}">{{name}}</a></p>
+                                <h2 class="colored_link"><a href="/events/{{slug}}">{{name}}</a></h2>
                                 <h3 class="publish_date">{{dates}}</h3>
                                 <div class="details_desc">{{description_short}}</div>
                                 <a href="/events/{{slug}}" class="read_more">Event Details</a>
@@ -52,7 +52,7 @@
                                 <img src="{{promo_image_url_abs}}" alt="{{name}}" class="full_width" />
                             </div>
                             <div class="promo_col_9" style="{{full_width}}">
-                                <p class="colored_link"><a href="/promotions/{{slug}}">{{name}}</a></p>
+                                <h2 class="colored_link"><a href="/promotions/{{slug}}">{{name}}</a></h2>
                                 <h3 class="publish_date"><a href="/stores/{{store_detail_btn}}"><span class="promo_parent">{{store_name}} |</a> </span><br class="visible_phone" />{{dates}}</h3>
                                 <div class="details_desc">{{description_short}}</div>
                                 <a href="/promotions/{{slug}}" class="read_more">Promotion Details</a>
