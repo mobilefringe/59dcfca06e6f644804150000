@@ -1,0 +1,8 @@
+<div class="error_img_div"><img src="//codecloud.cdn.speedyrails.net/sites/57f503036e6f6454f2010000/image/png/1463595344000/404_error_msg-1.png"  alt="404 page"></div>
+<a href="/" class="back_to_home">Go to Homepage!</a>
+<script>
+    $(document).ready(function(e){
+        init(e);
+        show_content();
+    })
+</script>
