@@ -14,7 +14,7 @@
                 Events
                 <i class="fa fa-chevron-up pull-right"></i>
             </h5>
-            <div id="collapse1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading3">
+            <div id="collapse1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="events_container">
                 <div class="store_desc" id="events_container">
                     <div class="store_desc" id="no_events">
                         Check back soon for future Events!
