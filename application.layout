@@ -137,7 +137,7 @@
                         <a class="btn btn-secondary dropdown-toggle" href="#" id="dropdownMenuContact" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Centre Information
                         </a>
-                        <ul class="dropdown_menu" aria-labelledby="dropdownMenuContact">
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuContact">
                             <li><a class="dropdown-item" href="/contact_us">Contact Us</a></li>
                             <li><a class="dropdown-item" href="/location">Find Us</a></li>
                             <li><a class="dropdown-item" href="/about_us">About Us</a></li>
