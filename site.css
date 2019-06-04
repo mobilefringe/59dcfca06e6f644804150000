@@ -23,6 +23,15 @@ $animation_color: black;
     margin-left: 20px;
 }
 
+// datepicker
+
+#fromDate {
+    background: unset;
+    width: unset;
+    -webkit-transform: unset;
+    transform: unset;
+}
+
 @media (max-width: 768px) {
 .vestar_logo {
     float: none;
