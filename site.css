@@ -24,8 +24,8 @@ $animation_color: black;
 }
 
 // datepicker
-.fromDate,
-.toDate {
+#fromDate,
+#toDate {
     background: #fff !important;
     width: unset;
     -webkit-transform: none;
