@@ -27,9 +27,6 @@ $animation_color: black;
 #fromDate,
 #toDate {
     background: #fff !important;
-    width: unset;
-    -webkit-transform: unset;
-    transform: unset;
 }
 
 
