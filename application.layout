@@ -62,7 +62,7 @@
     <!-- Site data -->
     <script>
         // setEndPoint('//eglinton.mallmaverick.com/api/v4/eglinton/all.json');
-                setEndPoint('//sheridancentre.mallmaverick.com/api/v4/sheridancentre/all.json');
+          setEndPoint('//sheridancentre.mallmaverick.com/api/v4/sheridancentre/all.json');
 
     </script>
 </head>
