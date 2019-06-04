@@ -50,7 +50,7 @@ $animation_color: black;
     box-shadow: none;
     color: #FFF;
 }
-.dropdown_menu {
+.dropdown-menu {
     margin: 0;
     width: 100%;
     min-width: unset;
@@ -61,7 +61,7 @@ $animation_color: black;
     border-radius: 0;
     background: #000;
 }
-.dropdown_menu>li>a {
+.dropdown-menu>li>a {
     padding-left: 0;
     padding-right: 0;
     float: none;
