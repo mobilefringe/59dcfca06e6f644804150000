@@ -283,7 +283,7 @@
             url : "//mallmaverick.com/send_contact_email",
             type: "POST",
             data : { 
-                'send_to': "stephpileggi@hotmail.com", 
+                'send_to': "DNeely@Bentallkennedy.com,ngoverde@bentallkennedy.com", 
                 'subject': "Eglinton Square Community Rental Form Application", 
                 'body': {
                     "Legal Name of Organization": $('#legalName').val(), 
