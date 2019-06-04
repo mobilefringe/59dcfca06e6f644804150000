@@ -128,7 +128,7 @@
                         <a class="btn btn-secondary dropdown-toggle" href="#" id="dropdownMenuLeasing" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Leasing
                         </a>
-                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLeasing">
+                        <ul class="dropdownmenu" aria-labelledby="dropdownMenuLeasing">
                             <li><a class="dropdown-item" href="/leasing">Leasing</a></li>
                             <li><a class="dropdown-item" href="/photos">Photos</a></li>
                         </ul>
