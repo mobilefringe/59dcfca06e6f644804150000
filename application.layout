@@ -23,7 +23,7 @@
     <link href="//cdnjs.cloudflare.com/ajax/libs/flexslider/2.5.0/flexslider.css" rel="stylesheet">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
     <!--<link href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/css/bootstrap-datepicker.min.css" rel="stylesheet" />-->
-    <link href="//codecloud.cdn.speedyrails.net/sites/5af3606b6e6f64457d440000/text/css/1559671546638/datePicker.css" rel="stylesheet">
+    
     <link href="../application.css" rel="stylesheet">
     <link href="../site.css" rel="stylesheet">
     <link href="../custom_popup.css" rel="stylesheet">
@@ -128,7 +128,7 @@
                         <a class="btn btn-secondary dropdown-toggle" href="#" id="dropdownMenuLeasing" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Leasing
                         </a>
-                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLeasing">
+                        <ul class="dropdownmenu" aria-labelledby="dropdownMenuLeasing">
                             <li><a class="dropdown-item" href="/leasing">Leasing</a></li>
                             <li><a class="dropdown-item" href="/photos">Photos</a></li>
                         </ul>
@@ -137,7 +137,7 @@
                         <a class="btn btn-secondary dropdown-toggle" href="#" id="dropdownMenuContact" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Centre Information
                         </a>
-                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuContact">
+                        <ul class="dropdown_menu" aria-labelledby="dropdownMenuContact">
                             <li><a class="dropdown-item" href="/contact_us">Contact Us</a></li>
                             <li><a class="dropdown-item" href="/location">Find Us</a></li>
                             <li><a class="dropdown-item" href="/about_us">About Us</a></li>
