@@ -50,18 +50,18 @@ $animation_color: black;
     box-shadow: none;
     color: #FFF;
 }
-// .dropdown-menu {
-//     margin: 0;
-//     width: 100%;
-//     min-width: unset;
-//     left: 50%;
-//     -webkit-transform: translate(-50%, 0%);
-//     -ms-transform: translate(-50%, 0%);
-//     transform: translate(-50%, 0%);
-//     border-radius: 0;
-//     background: #000;
-// }
-.dropdown-menu>li>a {
+.dropdown_menu {
+    margin: 0;
+    width: 100%;
+    min-width: unset;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0%);
+    -ms-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);
+    border-radius: 0;
+    background: #000;
+}
+.dropdown_menu>li>a {
     padding-left: 0;
     padding-right: 0;
     float: none;
