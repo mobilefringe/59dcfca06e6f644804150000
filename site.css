@@ -61,17 +61,17 @@ $animation_color: black;
 //     border-radius: 0;
 //     background: #000;
 // }
-// .dropdown-menu>li>a {
-//     padding-left: 0;
-//     padding-right: 0;
-//     float: none;
-//     color: #FFF;
-//     text-align: center;
-//     &:hover {
-//         background: #FFF;
-//         color: #000;
-//     }
-// }
+.dropdown-menu>li>a {
+    padding-left: 0;
+    padding-right: 0;
+    float: none;
+    color: #FFF;
+    text-align: center;
+    &:hover {
+        background: #FFF;
+        color: #000;
+    }
+}
 .leasing_dd {
     left: inherit;
     right: 3px;
