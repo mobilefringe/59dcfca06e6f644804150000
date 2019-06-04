@@ -1,0 +1,190 @@
+$layout_color: black;
+$animation_color: black;
+
+.main_btn, .back_to_home, .copyright_footer, .newsletter_btn, .flex-control-paging li a.flex-active, .store_nav a.active_store_nav:after, .store_nav a:hover:after, .store_initial, .details_header, .back_to_list, .back_to_list:hover, .back_to_list:focus, .mobile_menu_dd, #mm_page_content h2{
+    background: $layout_color;
+}
+
+.newsletter_control:focus{
+    border-color: $layout_color;
+}
+#category_container li {
+    cursor: pointer;
+    text-transform: uppercase;
+    margin: 5px 0;
+    color: white;
+}
+.view_more_btn, .colored_link, .colored_link a, #mm_page_content h1, .mobile_menu li a{
+    color: $layout_color;
+}
+.vestar_logo {
+    height: 45px;
+    float: right;
+    margin-left: 20px;
+}
+
+@media (max-width: 768px) {
+.vestar_logo {
+    float: none;
+    height: 55px;
+    margin: 20px 0px;
+}
+}
+.animated_btn:before{
+    background: $animation_color;
+}
+.top_menu {
+    float: right;
+}
+.top_menu a {
+    padding: 0 15px;
+}
+.btn-group {
+    min-width: 86px;
+    vertical-align: baseline;
+}
+.btn-group.open .dropdown-toggle {
+    min-width: 86px;
+    border-radius: 0;
+    background: #000;
+    box-shadow: none;
+    color: #FFF;
+}
+// .dropdown-menu {
+//     margin: 0;
+//     width: 100%;
+//     min-width: unset;
+//     left: 50%;
+//     -webkit-transform: translate(-50%, 0%);
+//     -ms-transform: translate(-50%, 0%);
+//     transform: translate(-50%, 0%);
+//     border-radius: 0;
+//     background: #000;
+// }
+// .dropdown-menu>li>a {
+//     padding-left: 0;
+//     padding-right: 0;
+//     float: none;
+//     color: #FFF;
+//     text-align: center;
+//     &:hover {
+//         background: #FFF;
+//         color: #000;
+//     }
+// }
+.leasing_dd {
+    left: inherit;
+    right: 3px;
+    top: -20px;
+    width: 86px;
+    background: #000;
+    border-radius: 0;
+    padding-top: 50px;
+}
+.feature_row .feature_col {
+    text-align: center;
+}
+.feature_row .feature_col a:hover {
+    text-decoration: none;
+}
+.feature_row .feature_col img {
+    // border-radius: 50%;
+    // max-width: 160px;
+}
+.feature_row .feature_col .feature_title {
+    margin-top: 20px;
+    font-family: Georgia;
+    font-style: italic;
+    font-size: 22px;
+    color: #4B4B4B;
+    line-height: 30px;
+}
+.stores_banner{
+    background-image: url(//codecloud.cdn.speedyrails.net/sites/59dcfca06e6f644804150000/image/jpeg/1509128013000/InsidePgBanner-1920x150.jpg);
+}
+
+.events_banner{
+    background-image: url(//codecloud.cdn.speedyrails.net/sites/59dcfca06e6f644804150000/image/jpeg/1509128013000/InsidePgBanner-1920x150.jpg);
+}
+
+.dine_banner{
+    background-image: url(//codecloud.cdn.speedyrails.net/sites/59dcfca06e6f644804150000/image/jpeg/1509128013000/InsidePgBanner-1920x150.jpg);
+}
+.community_banner{
+    background-image: url(//codecloud.cdn.speedyrails.net/sites/59dcfca06e6f644804150000/image/jpeg/1509128013000/InsidePgBanner-1920x150.jpg);
+}
+
+.about_banner{
+    background-image: url(//codecloud.cdn.speedyrails.net/sites/59dcfca06e6f644804150000/image/jpeg/1509128013000/InsidePgBanner-1920x150.jpg);
+}
+
+.contact_banner{
+    background-image: url(//codecloud.cdn.speedyrails.net/sites/59dcfca06e6f644804150000/image/jpeg/1509128013000/InsidePgBanner-1920x150.jpg);
+}
+
+.leasing_banner{
+    background-image: url(//codecloud.cdn.speedyrails.net/sites/59dcfca06e6f644804150000/image/jpeg/1509128013000/InsidePgBanner-1920x150.jpg);
+}
+
+.jobs_banner{
+    background-image: url(//codecloud.cdn.speedyrails.net/sites/59dcfca06e6f644804150000/image/jpeg/1509128013000/InsidePgBanner-1920x150.jpg);
+}
+
+.location_banner{
+    background-image: url(//codecloud.cdn.speedyrails.net/sites/59dcfca06e6f644804150000/image/jpeg/1509128013000/InsidePgBanner-1920x150.jpg);
+}
+
+.longbeach-services{
+    background-image: url(//codecloud.cdn.speedyrails.net/sites/57f503036e6f6454f2010000/image/jpeg/undefined/lbtc_1920x150_banner_contact.jpg);
+}
+
+.eglinton-contact-us{
+    background-image: url(//codecloud.cdn.speedyrails.net/sites/59dcfca06e6f644804150000/image/jpeg/1509128013000/InsidePgBanner-1920x150.jpg);
+}
+
+.eglinton-privacy-policy{
+    background-image: url(//codecloud.cdn.speedyrails.net/sites/59dcfca06e6f644804150000/image/jpeg/1509128013000/InsidePgBanner-1920x150.jpg);
+}
+
+.eglinton-about-us{
+    background-image: url(//codecloud.cdn.speedyrails.net/sites/59dcfca06e6f644804150000/image/jpeg/1509128013000/InsidePgBanner-1920x150.jpg);
+}
+
+.eglinton-leasing--2{
+    background-image: url(//codecloud.cdn.speedyrails.net/sites/59dcfca06e6f644804150000/image/jpeg/1509128013000/InsidePgBanner-1920x150.jpg);
+}
+
+.hours_banner{
+    background-image: url(//codecloud.cdn.speedyrails.net/sites/59dcfca06e6f644804150000/image/jpeg/1509128013000/InsidePgBanner-1920x150.jpg);
+}
+#stores_container {
+    max-height: 351px;
+}
+.regular_hours .day, .regular_hours .time,
+.holiday_hours .day, .holiday_hours .time {
+    display: inline-block;
+    font-family: Avenir-Book;
+    font-size: 18px;
+    color: #4B4B4B;
+    line-height: 30px;
+}
+.regular_hours .day, .holiday_hours .day {
+    width: 30%;
+}
+.portfolio_item img {
+    margin-bottom: 20px;
+    max-width: 100%;
+}
+#contact_form label {
+    font-family: Avenir-Book;
+    font-size: 18px;
+    font-weight: normal;
+    color: #4B4B4B;
+    line-height: normal;
+}
+.main_btn {
+    padding: 7.5px 12px;
+    min-width: 100px;
+    border: none;
+    border-radius: 0;
+}
