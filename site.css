@@ -28,8 +28,8 @@ $animation_color: black;
 #toDate {
     background: #fff !important;
     width: unset;
-    -webkit-transform: none;
-    transform: none;
+    -webkit-transform: unset;
+    transform: unset;
 }
 
 
