@@ -219,7 +219,7 @@
                 <p class="footer_text">
                     © Copyright <span id="current_year"></span> Eglinton Square
                 </p>
-                <p class="footer_text hidden_phone">
+                <p class="footer_text">
                     Powered by <a href="//mallmaverick.com" target="_blank">Mall Maverick</a>
                 </p>
             </div>
