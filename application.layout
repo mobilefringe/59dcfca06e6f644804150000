@@ -200,7 +200,7 @@
     <section class="copyright_footer main_container">
         <div class="text-center visible_phone">
             <p class="footer_text">
-                © Copyright 2017 Eglinton Square
+                © Copyright <span id="current_year"></span> Eglinton Square
             </p>
             <p class="footer_text">
                 1 Eglinton Square Toronto, ON
@@ -219,7 +219,7 @@
                 <p class="footer_text">
                     © Copyright <span id="current_year"></span> Eglinton Square
                 </p>
-                <p class="footer_text">
+                <p class="footer_text hidden_phone">
                     Powered by <a href="//mallmaverick.com" target="_blank">Mall Maverick</a>
                 </p>
             </div>
