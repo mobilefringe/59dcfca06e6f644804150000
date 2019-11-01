@@ -27,7 +27,7 @@
         var pathArray = window.location.pathname.split( '/' );
         var slug = pathArray[pathArray.length-1];
           if (slug == "longbeach-contact-us"){
-           $('#side_image').attr('src', "//codecloud.cdn.speedyrails.net/sites/57f503036e6f6454f2010000/image/jpeg/undefined/lbtc_440x1200_side_jobs.jpg")
+           $('#side_image').attr({src: "//codecloud.cdn.speedyrails.net/sites/57f503036e6f6454f2010000/image/jpeg/undefined/lbtc_440x1200_side_jobs.jpg", alt: ""})
         }
     
         prefix = get_prefix();
