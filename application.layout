@@ -204,7 +204,7 @@
          <a href="//bentallgreenoak.com/" target="_blank">
                 <img src="//codecloud.cdn.speedyrails.net/sites/59dcfca06e6f644804150000/image/png/1564604962000/bentallwhite.png" class="vestar_logo" alt=""> </a>
             <p class="footer_text">
-                Powered by <a href="//mallmaverick.com" target="_blank">Mall Maverick</a>
+                Powered by <a href="//assets.mallmaverick.com" target="_blank">Mall Maverick</a>
             </p>
         </div>
         <div class="row hidden_phone">
@@ -213,7 +213,7 @@
                     © Copyright <span id="current_year"></span> Eglinton Square
                 </p>
                 <p class="footer_text">
-                    Powered by <a href="//mallmaverick.com" target="_blank">Mall Maverick</a>
+                    Powered by <a href="//assets.mallmaverick.com" target="_blank">Mall Maverick</a>
                 </p>
             </div>
             <div class="col-md-6 text-right ">
